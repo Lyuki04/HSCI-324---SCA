@@ -31,7 +31,7 @@ with st.container():
     left_column, right_column = st.columns((4,4))
     with left_column:
         st.markdown("""
-        - **Ataxia**: Loss of coordination affecting movement, balance, and speech  
+        - **Ataxia**: Loss of coordination affecting movement, balance, and speech<sup>1</sup>  
         - **Spinocerebellar Ataxia (SCA)**: A group of inherited, progressive neurodegenerative disorders caused by mutations
         - Primarily impacts the **cerebellum**, but may affect other areas like the **spinal cord** and **nerves**  
         - **Onset** varies widely by type and genetics
