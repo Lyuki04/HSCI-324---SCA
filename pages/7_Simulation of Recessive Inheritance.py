@@ -58,7 +58,7 @@ log_mu = st.sidebar.slider(
 mu = 10**log_mu  
 
 # Run multiple simulations to visualize genetic drift
-num_simulations = 5  # Run 5 simulations to see drift variability
+num_simulations = 10  # Run 5 simulations to see drift variability
 all_allele_frequencies = []
 
 for _ in range(num_simulations):
