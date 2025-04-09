@@ -8,15 +8,15 @@ st.title("Understanding Autosomal Inheritance")
 # Introduction to autosomal inheritance
 st.markdown("""
 Inheritance patterns determine how genetic traits or diseases are passed down from parents to offspring. Two common inheritance patterns are **autosomal dominant** and **autosomal recessive** inheritance.
-""")
+<sup>1,2</sup>", unsafe_allow_html=True)
 
-with st.expander("🔑 Key Terms"):
+with st.expander("🔑 Key Terms<sup>1,2</sup>", unsafe_allow_html=True):
     st.markdown("""
     To understand inheritance patterns like autosomal dominant and recessive traits, it's essential to grasp a few foundational terms in genetics:
 
     ### 🧬 Genotype
     - The **genotype** refers to the underlying genetic makeup of an organism—the specific alleles it carries for a given gene.
-    - For example: `YY`, `Yy`, or `yy` represent different genotypes for a gene controlling seed color.
+    - For example: `YY`, `Yy`, or `yy` represent different genotypes.
 
     ### 🌱 Phenotype
     - The **phenotype** is the **observable** trait or characteristic that results from the genotype.
@@ -35,7 +35,7 @@ with st.expander("🔑 Key Terms"):
 
 
 # Autosomal Dominant vs. Autosomal Recessive Inheritance
-st.subheader("Autosomal Dominant vs. Autosomal Recessive Inheritance")
+st.subheader("Autosomal Dominant vs. Autosomal Recessive Inheritance<sup>1,2</sup>", unsafe_allow_html=True)
 
 # Create a comparison table
 st.markdown("""
