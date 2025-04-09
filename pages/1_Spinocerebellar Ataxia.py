@@ -125,7 +125,7 @@ st.markdown("_Note: Recessive ataxias are highly heterogeneous and often have ov
 
 
     
-with st.expander("References"):
+with st.expander("#References"):
     st.markdown("""
     1. Beaudin, M., Matilla-Dueñas, A., Soong, B. W., Pedroso, J. L., Barsottini, O. G., Mitoma, H., Tsuji, S., Schmahmann, J. D., Manto, M., Rouleau, G. A., Klein, C., & Dupre, N. (2019). The Classification of Autosomal Recessive Cerebellar Ataxias: a Consensus Statement from the Society for Research on the Cerebellum and Ataxias Task Force. Cerebellum (London, England), 18(6), 1098–1125. https://doi.org/10.1007/s12311-019-01052-2
     2. Benomar, A., Le Guern, E., Dürr, A., Ouhabi, H., Stevanin, G., Yahyaoui, M., Chkili, T., Agid, Y., & Brice, A. (1994). Autosomal-dominant cerebellar ataxia with retinal degeneration (ADCA type II) is genetically different from ADCA type I. Annals of neurology, 35(4), 439–444. https://doi.org/10.1002/ana.410350411
