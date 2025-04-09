@@ -23,7 +23,7 @@ st.markdown("""
 | **Inheritance Pattern**       | If one parent is affected (Aa), there is a **50% chance** the trait will be passed on  | The trait appears only when **both** parents are carriers or affected                   |
 """)
 
-with st.expander("References")
+with st.expander("References"):
     st.markdown("""
     st.write("1. Genetic Alliance, & The New York-Mid-Atlantic Consortium for Genetic and Newborn Screening Services. (2009, July 8). Understanding genetics: A New York, Mid-Atlantic guide for patients and health professionals (Appendix E, Inheritance patterns). Genetic Alliance. https://www.ncbi.nlm.nih.gov/books/NBK115561/")
     """)
