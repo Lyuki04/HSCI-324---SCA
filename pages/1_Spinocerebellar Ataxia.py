@@ -27,7 +27,7 @@ img_CAG = Image.open("Images/CAG repeat.png")
 
 with st.container():
     st.write("---")
-    st.markdown("### What is Spinocerebellar Ataxia (SCA)?<sup>1</sup>", unsafe_allow_html=True)
+    st.markdown("### What is Spinocerebellar Ataxia (SCA)?<sup>1,2</sup>", unsafe_allow_html=True)
     left_column, right_column = st.columns((4,4))
     with left_column:
        st.markdown("""
@@ -42,7 +42,7 @@ with st.container():
 
 with st.container():
     st.write("---")
-    st.subheader("Types of Spinocerebellar Ataxia")
+    st.subheader("Types of Spinocerebellar Ataxia<sup>1,2</sup>", unsafe_allow_html=True))
     st.markdown("SCAs differ by **symptoms** and **inheritance patterns**.")
     st.page_link("pages/2_Inheritance Types.py", label="***Learn More About Inheritance Patterns***")
     with st.expander("Autosomal Dominant SCA"):
@@ -128,4 +128,4 @@ st.markdown("_Note: Recessive ataxias are highly heterogeneous and often have ov
 with st.container():
     st.subheader("References")
     st.write("1. Bhandari, J., Thada, P. K., & Samanta, D. (2023, September 15). Spinocerebellar ataxia. In StatPearls. StatPearls Publishing. https://www.ncbi.nlm.nih.gov/books/NBK557816/")
-    st.write("")
+    st.write("2. Klockgether, T., Mariotti, C., & Paulson, H. L. (2019). Spinocerebellar ataxia. Nature Reviews. Disease Primers, 5(1), 24–24. https://doi.org/10.1038/s41572-019-0074-3")
