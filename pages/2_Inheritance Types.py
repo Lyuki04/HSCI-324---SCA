@@ -7,7 +7,7 @@ st.title("Understanding Autosomal Inheritance")
 
 # Introduction to autosomal inheritance
 st.markdown("""
-Inheritance patterns determine how genetic traits or diseases are passed down from parents to offspring. The two most common autosomal inheritance patterns are **autosomal dominant** and **autosomal recessive** inheritance.
+Inheritance patterns determine how genetic traits or diseases are passed down from parents to offspring. Two common inheritance patterns are **autosomal dominant** and **autosomal recessive** inheritance.
 """)
 
 # Autosomal Dominant vs. Autosomal Recessive Inheritance
