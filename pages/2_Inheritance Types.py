@@ -20,11 +20,11 @@ with st.expander("🔑 Key Terms"):
     - The **genotype** refers to the underlying genetic makeup of an organism—the specific alleles it carries for a given gene.
     - For example: `YY`, `Yy`, or `yy` represent different genotypes.
 
-    ### 🌱 Phenotype
+    ### 🌱 Phenotype <sup>1</sup>
     - The **phenotype** is the **observable** trait or characteristic that results from the genotype.
     - For example, whether an individual **has SCA** or is unaffected.
 
-    ### 🧩 Homozygous vs. Heterozygous
+    ### 🧩 Homozygous vs. Heterozygous <sup>1</sup>
     - **Homozygous** organisms have two identical alleles for a gene:
         - `YY` (homozygous dominant)
         - `yy` (homozygous recessive)
