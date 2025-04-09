@@ -20,11 +20,8 @@ with st.expander("🔑 Key Terms"):
 
     ### 🌱 Phenotype
     - The **phenotype** is the **observable** trait or characteristic that results from the genotype.
-    - For instance, both `YY` and `Yy` genotypes produce **yellow seeds** as a phenotype in Mendel’s pea plant experiments.
+    - For example, For example, whether an individual **has SCA** or is unaffected.
 
-    ### 🔠 Dominant vs. Recessive Alleles
-    - A **dominant allele** (e.g., `Y`) is expressed in the phenotype if at least one copy is present.
-    - A **recessive allele** (e.g., `y`) is only expressed when both copies are recessive (`yy`).
 
     ### 🧩 Homozygous vs. Heterozygous
     - **Homozygous** organisms have two identical alleles for a gene:
@@ -32,11 +29,6 @@ with st.expander("🔑 Key Terms"):
         - `yy` (homozygous recessive)
     - **Heterozygous** organisms have one dominant and one recessive allele: `Yy`
 
-    ### Example: Seed Color in Pea Plants
-    - `Y` = Yellow seed allele (dominant)
-    - `y` = Green seed allele (recessive)
-    - `YY` and `Yy` → **Yellow seeds** (phenotype)
-    - `yy` → **Green seeds** (phenotype)
 
     These key terms form the basis for understanding **autosomal inheritance** patterns and how traits are passed from one generation to the next.
     """)
@@ -57,5 +49,5 @@ st.markdown("""
 
 with st.expander("References"):
     st.markdown("""
-    st.write("1. Genetic Alliance, & The New York-Mid-Atlantic Consortium for Genetic and Newborn Screening Services. (2009, July 8). Understanding genetics: A New York, Mid-Atlantic guide for patients and health professionals (Appendix E, Inheritance patterns). Genetic Alliance. https://www.ncbi.nlm.nih.gov/books/NBK115561/")
+    1. Genetic Alliance, & The New York-Mid-Atlantic Consortium for Genetic and Newborn Screening Services. (2009, July 8). Understanding genetics: A New York, Mid-Atlantic guide for patients and health professionals (Appendix E, Inheritance patterns). Genetic Alliance. https://www.ncbi.nlm.nih.gov/books/NBK115561/")
     """)
