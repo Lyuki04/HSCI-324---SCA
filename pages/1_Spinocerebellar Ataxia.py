@@ -27,7 +27,7 @@ img_CAG = Image.open("Images/CAG repeat.png")
 
 with st.container():
     st.write("---")
-    st.markdown("### What is Spinocerebellar Ataxia (SCA)?<sup>3,7,10</sup>", unsafe_allow_html=True)
+    st.markdown("### What is Spinocerebellar Ataxia (SCA)?<sup>3,7,11</sup>", unsafe_allow_html=True)
     left_column, right_column = st.columns((4,4))
     with left_column:
        st.markdown("""
@@ -42,7 +42,7 @@ with st.container():
 
 with st.container():
     st.write("---")
-    st.markdown("### Types of Spinocerebellar Ataxia<sup>2,3,4,6,7,10,11,12</sup>", unsafe_allow_html=True)
+    st.markdown("### Types of Spinocerebellar Ataxia<sup>2,3,4,6,7,10,11,12,13</sup>", unsafe_allow_html=True)
     st.markdown("SCAs differ by **symptoms** and **inheritance patterns**.")
     st.page_link("pages/2_Inheritance Types.py", label="***Learn More About Inheritance Patterns***")
     with st.expander("Autosomal Dominant SCA"):
@@ -74,7 +74,7 @@ with st.expander("Autosomal Recessive SCA"):
 with st.container():
     st.write("---")
     st.subheader("SCA and ARCA Genetics") 
-    st.markdown("#### Overview of Genetic Causes of Dominant SCA<sup>2,6,8,9,10,12</sup>", unsafe_allow_html=True)
+    st.markdown("#### Overview of Genetic Causes of Dominant SCA<sup>2,6,8,9,10,11,13</sup>", unsafe_allow_html=True)
     
     # Create the table using markdown formatting
     st.markdown("""
@@ -93,7 +93,7 @@ with st.container():
         st.image(img_CAG)
         st.markdown("_Note: (Source:https://www.nature.com/articles/s41572-019-0074-3)_")
 
-st.markdown("#### Overview of Genetic Causes of Recessive Cerebellar Ataxias<sup>1,4,6,11</sup>", unsafe_allow_html=True)
+st.markdown("#### Overview of Genetic Causes of Recessive Cerebellar Ataxias<sup>1,4,6,12</sup>", unsafe_allow_html=True)
     
 st.markdown("""
     **Autosomal recessive cerebellar ataxias (ARCAs)** are more **numerous and genetically diverse** than dominant forms. They are caused by a wide variety of mutations affecting genes involved in:
