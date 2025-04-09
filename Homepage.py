@@ -60,7 +60,7 @@ with st.container():
 
 with st.container():
     st.write("---")
-    st.header("Inquiry")
+    st.header("Inquiries")
     st.write("##")
 
     contact_form = """
