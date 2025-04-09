@@ -42,7 +42,7 @@ with st.container():
 
 with st.container():
     st.write("---")
-    st.markdown("### Types of Spinocerebellar Ataxia<sup>1,2,3</sup>", unsafe_allow_html=True)
+    st.markdown("### Types of Spinocerebellar Ataxia<sup>1,2,3,4</sup>", unsafe_allow_html=True)
     st.markdown("SCAs differ by **symptoms** and **inheritance patterns**.")
     st.page_link("pages/2_Inheritance Types.py", label="***Learn More About Inheritance Patterns***")
     with st.expander("Autosomal Dominant SCA"):
@@ -74,7 +74,7 @@ with st.expander("Autosomal Recessive SCA"):
 with st.container():
     st.write("---")
     st.subheader("SCA and ARCA Genetics") 
-    st.markdown("#### Overview of Genetic Causes of Dominant SCA")
+    st.markdown("#### Overview of Genetic Causes of Dominant SCA<sup>4</sup>", unsafe_allow_html=True)
     
     # Create the table using markdown formatting
     st.markdown("""
@@ -130,3 +130,4 @@ with st.container():
     st.write("1. Bhandari, J., Thada, P. K., & Samanta, D. (2023, September 15). Spinocerebellar ataxia. In StatPearls. StatPearls Publishing. https://www.ncbi.nlm.nih.gov/books/NBK557816/")
     st.write("2. Klockgether, T., Mariotti, C., & Paulson, H. L. (2019). Spinocerebellar ataxia. Nature Reviews. Disease Primers, 5(1), 24–24. https://doi.org/10.1038/s41572-019-0074-3")
     st.write("3. Sun, Y.-M., Lu, C., & Wu, Z.-Y. (2016). Spinocerebellar ataxia: relationship between phenotype and genotype - a review. Clinical Genetics, 90(4), 305–314. https://doi.org/10.1111/cge.12808")
+    st.write("4. Whaley, N. R., Fujioka, S., & Wszolek, Z. K. (2011). Autosomal dominant cerebellar ataxia type I: A review of the phenotypic and genotypic characteristics. Orphanet Journal of Rare Diseases, 6, 33. https://doi.org/10.1186/1750-1172-6-33")
