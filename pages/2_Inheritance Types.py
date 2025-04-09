@@ -21,8 +21,7 @@ with st.expander("🔑 Key Terms (1, 2)", unsafe_allow_html=True):
 
     ### 🌱 Phenotype
     - The **phenotype** is the **observable** trait or characteristic that results from the genotype.
-    - For example, For example, whether an individual **has SCA** or is unaffected.
-
+    - For example, whether an individual **has SCA** or is unaffected.
 
     ### 🧩 Homozygous vs. Heterozygous
     - **Homozygous** organisms have two identical alleles for a gene:
@@ -30,9 +29,9 @@ with st.expander("🔑 Key Terms (1, 2)", unsafe_allow_html=True):
         - `yy` (homozygous recessive)
     - **Heterozygous** organisms have one dominant and one recessive allele: `Yy`
 
-
     These key terms form the basis for understanding **autosomal inheritance** patterns and how traits are passed from one generation to the next.
     """)
+
 
 
 # Autosomal Dominant vs. Autosomal Recessive Inheritance
