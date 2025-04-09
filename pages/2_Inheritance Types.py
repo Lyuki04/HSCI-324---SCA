@@ -33,10 +33,14 @@ with st.expander("Autosomal Dominant Inheritance"):
     - **No carriers** in the classic sense,individuals who inherit the dominant allele will express the trait.
    """)
 
-with st.expander("Autosomal Recessive Inheritance"):
+with st.expander("🧬 Autosomal Recessive Inheritance"):
     st.markdown("""
-    - **Two copies of the recessive allele (aa)** are required for the individual to express the recessive trait.
-    - Individuals with **AA** or **Aa** genotypes do not express the trait but may be carriers if they have the **Aa** genotype.
-    - Both parents must be carriers or affected for a child to inherit two copies of the recessive allele and express the disease.
-    - **Carrier individuals** (Aa) do not show the trait but have a 50% chance of passing the recessive allele to their children.
-   """)
+    - The trait is expressed **only when both copies** of the gene are the **recessive allele (aa)**.
+    - Individuals with **AA** (homozygous dominant) or **Aa** (heterozygous carrier) genotypes do **not** show symptoms.
+    - A child must inherit **one recessive allele from each parent** to express the trait.
+    - **Carrier individuals (Aa)** do **not** show the trait but have a **50% chance** of passing the recessive allele to each child.
+    - If **both parents are carriers**, there is a:
+        - **25% chance** the child will be affected (aa),
+        - **50% chance** the child will be a carrier (Aa),
+        - **25% chance** the child will be unaffected (AA).
+""")
