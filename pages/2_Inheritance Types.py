@@ -35,7 +35,9 @@ with st.expander("🔑 Key Terms (1, 2)"):
 
 
 # Autosomal Dominant vs. Autosomal Recessive Inheritance
-st.markdown("###Autosomal Dominant vs. Autosomal Recessive Inheritance<sup>1,2</sup>", unsafe_allow_html=True)
+st.markdown("""
+            ###"Autosomal Dominant vs. Autosomal Recessive Inheritance<sup>1,2</sup>", unsafe_allow_html=True)
+""")
 
 # Create a comparison table
 st.markdown("""
