@@ -124,7 +124,8 @@ st.markdown("""
 st.markdown("_Note: Recessive ataxias are highly heterogeneous and often have overlapping features with metabolic or neurodegenerative syndromes._")
 
 
-st.subheader("References")  
+st.subheader("References")
+
 with st.expander(""):
     st.markdown("""
     1. Beaudin, M., Matilla-Dueñas, A., Soong, B. W., Pedroso, J. L., Barsottini, O. G., Mitoma, H., Tsuji, S., Schmahmann, J. D., Manto, M., Rouleau, G. A., Klein, C., & Dupre, N. (2019). The Classification of Autosomal Recessive Cerebellar Ataxias: a Consensus Statement from the Society for Research on the Cerebellum and Ataxias Task Force. Cerebellum (London, England), 18(6), 1098–1125. https://doi.org/10.1007/s12311-019-01052-2
