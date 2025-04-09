@@ -27,7 +27,7 @@ img_CAG = Image.open("Images/CAG repeat.png")
 
 with st.container():
     st.write("---")
-    st.subheader("What is Spinocerebellar Ataxia (SCA)?<sup>1</sup> "), unsafe_allow_html=True)
+   st.markdown("### What is Spinocerebellar Ataxia (SCA)?<sup>1</sup>", unsafe_allow_html=True)
     left_column, right_column = st.columns((4,4))
     with left_column:
        st.markdown("""
