@@ -27,7 +27,7 @@ img_CAG = Image.open("Images/CAG repeat.png")
 
 with st.container():
     st.write("---")
-    st.markdown("### What is Spinocerebellar Ataxia (SCA)?<sup>2,4,5</sup>", unsafe_allow_html=True)
+    st.markdown("### What is Spinocerebellar Ataxia (SCA)?<sup>3,5,6</sup>", unsafe_allow_html=True)
     left_column, right_column = st.columns((4,4))
     with left_column:
        st.markdown("""
@@ -42,7 +42,7 @@ with st.container():
 
 with st.container():
     st.write("---")
-    st.markdown("### Types of Spinocerebellar Ataxia<sup>1,2,4,5,6</sup>", unsafe_allow_html=True)
+    st.markdown("### Types of Spinocerebellar Ataxia<sup>2,3,5,6,7</sup>", unsafe_allow_html=True)
     st.markdown("SCAs differ by **symptoms** and **inheritance patterns**.")
     st.page_link("pages/2_Inheritance Types.py", label="***Learn More About Inheritance Patterns***")
     with st.expander("Autosomal Dominant SCA"):
@@ -74,7 +74,7 @@ with st.expander("Autosomal Recessive SCA"):
 with st.container():
     st.write("---")
     st.subheader("SCA and ARCA Genetics") 
-    st.markdown("#### Overview of Genetic Causes of Dominant SCA<sup>1,5</sup>", unsafe_allow_html=True)
+    st.markdown("#### Overview of Genetic Causes of Dominant SCA<sup>2,6</sup>", unsafe_allow_html=True)
     
     # Create the table using markdown formatting
     st.markdown("""
@@ -93,7 +93,7 @@ with st.container():
         st.image(img_CAG)
         st.markdown("_Note: (Source:https://www.nature.com/articles/s41572-019-0074-3)_")
 
-st.markdown("#### Overview of Genetic Causes of Recessive Ataxias")
+st.markdown("#### Overview of Genetic Causes of Recessive Cerebellar Ataxias<sup>1</sup>", unsafe_allow_html=True)
     
 st.markdown("""
     **Autosomal recessive cerebellar ataxias (ARCAs)** are more **numerous and genetically diverse** than dominant forms. They are caused by a wide variety of mutations affecting genes involved in:
@@ -127,10 +127,11 @@ st.markdown("_Note: Recessive ataxias are highly heterogeneous and often have ov
     
 with st.container():
     st.subheader("References")
-    st.write("1. Benomar A, Le Guern E, Dürr A, Ouhabi H, Stevanin G, Yahyaoui M, Chkili T, Agid Y, Brice A. Autosomal-dominant cerebellar ataxia with retinal degeneration (ADCA type II) is genetically different from ADCA type I. Ann Neurol. 1994 Apr;35(4):439-44. doi: 10.1002/ana.410350411. PMID: 8154871.")
-    st.write("2. Bhandari, J., Thada, P. K., & Samanta, D. (2023, September 15). Spinocerebellar ataxia. In StatPearls. StatPearls Publishing. https://www.ncbi.nlm.nih.gov/books/NBK557816/")
-    st.write("3. Fujioka, S., Sundal, C., & Wszolek, Z. K. (2013). Autosomal dominant cerebellar ataxia type III: a review of the phenotypic and genotypic characteristics. Orphanet journal of rare diseases, 8, 14. https://doi.org/10.1186/1750-1172-8-14")
-    st.write("4. Klockgether, T., Mariotti, C., & Paulson, H. L. (2019). Spinocerebellar ataxia. Nature Reviews. Disease Primers, 5(1), 24–24. https://doi.org/10.1038/s41572-019-0074-3")
-    st.write("5. Sun, Y.-M., Lu, C., & Wu, Z.-Y. (2016). Spinocerebellar ataxia: relationship between phenotype and genotype - a review. Clinical Genetics, 90(4), 305–314. https://doi.org/10.1111/cge.12808")
-    st.write("6. Whaley, N. R., Fujioka, S., & Wszolek, Z. K. (2011). Autosomal dominant cerebellar ataxia type I: A review of the phenotypic and genotypic characteristics. Orphanet Journal of Rare Diseases, 6, 33. https://doi.org/10.1186/1750-1172-6-33")
+    st.write("1. Beaudin, M., Matilla-Dueñas, A., Soong, B. W., Pedroso, J. L., Barsottini, O. G., Mitoma, H., Tsuji, S., Schmahmann, J. D., Manto, M., Rouleau, G. A., Klein, C., & Dupre, N. (2019). The Classification of Autosomal Recessive Cerebellar Ataxias: a Consensus Statement from the Society for Research on the Cerebellum and Ataxias Task Force. Cerebellum (London, England), 18(6), 1098–1125. https://doi.org/10.1007/s12311-019-01052-2")
+    st.write("2. Benomar A, Le Guern E, Dürr A, Ouhabi H, Stevanin G, Yahyaoui M, Chkili T, Agid Y, Brice A. Autosomal-dominant cerebellar ataxia with retinal degeneration (ADCA type II) is genetically different from ADCA type I. Ann Neurol. 1994 Apr;35(4):439-44. doi: 10.1002/ana.410350411. PMID: 8154871.")
+    st.write("3. Bhandari, J., Thada, P. K., & Samanta, D. (2023, September 15). Spinocerebellar ataxia. In StatPearls. StatPearls Publishing. https://www.ncbi.nlm.nih.gov/books/NBK557816/")
+    st.write("4. Fujioka, S., Sundal, C., & Wszolek, Z. K. (2013). Autosomal dominant cerebellar ataxia type III: a review of the phenotypic and genotypic characteristics. Orphanet journal of rare diseases, 8, 14. https://doi.org/10.1186/1750-1172-8-14")
+    st.write("5. Klockgether, T., Mariotti, C., & Paulson, H. L. (2019). Spinocerebellar ataxia. Nature Reviews. Disease Primers, 5(1), 24–24. https://doi.org/10.1038/s41572-019-0074-3")
+    st.write("6. Sun, Y.-M., Lu, C., & Wu, Z.-Y. (2016). Spinocerebellar ataxia: relationship between phenotype and genotype - a review. Clinical Genetics, 90(4), 305–314. https://doi.org/10.1111/cge.12808")
+    st.write("7. Whaley, N. R., Fujioka, S., & Wszolek, Z. K. (2011). Autosomal dominant cerebellar ataxia type I: A review of the phenotypic and genotypic characteristics. Orphanet Journal of Rare Diseases, 6, 33. https://doi.org/10.1186/1750-1172-6-33")
     
