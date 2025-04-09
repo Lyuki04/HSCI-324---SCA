@@ -27,7 +27,7 @@ img_CAG = Image.open("Images/CAG repeat.png")
 
 with st.container():
     st.write("---")
-    st.markdown("### What is Spinocerebellar Ataxia (SCA)?<sup>3,6,7</sup>", unsafe_allow_html=True)
+    st.markdown("### What is Spinocerebellar Ataxia (SCA)?<sup>3,7,8</sup>", unsafe_allow_html=True)
     left_column, right_column = st.columns((4,4))
     with left_column:
        st.markdown("""
@@ -42,7 +42,7 @@ with st.container():
 
 with st.container():
     st.write("---")
-    st.markdown("### Types of Spinocerebellar Ataxia<sup>2,3,5,6,7,8,9</sup>", unsafe_allow_html=True)
+    st.markdown("### Types of Spinocerebellar Ataxia<sup>2,3,4,6,7,8,9,10</sup>", unsafe_allow_html=True)
     st.markdown("SCAs differ by **symptoms** and **inheritance patterns**.")
     st.page_link("pages/2_Inheritance Types.py", label="***Learn More About Inheritance Patterns***")
     with st.expander("Autosomal Dominant SCA"):
@@ -74,7 +74,7 @@ with st.expander("Autosomal Recessive SCA"):
 with st.container():
     st.write("---")
     st.subheader("SCA and ARCA Genetics") 
-    st.markdown("#### Overview of Genetic Causes of Dominant SCA<sup>2,5,7</sup>", unsafe_allow_html=True)
+    st.markdown("#### Overview of Genetic Causes of Dominant SCA<sup>2,6,8,10</sup>", unsafe_allow_html=True)
     
     # Create the table using markdown formatting
     st.markdown("""
@@ -93,7 +93,7 @@ with st.container():
         st.image(img_CAG)
         st.markdown("_Note: (Source:https://www.nature.com/articles/s41572-019-0074-3)_")
 
-st.markdown("#### Overview of Genetic Causes of Recessive Cerebellar Ataxias<sup>1,5,8</sup>", unsafe_allow_html=True)
+st.markdown("#### Overview of Genetic Causes of Recessive Cerebellar Ataxias<sup>1,4,6,9</sup>", unsafe_allow_html=True)
     
 st.markdown("""
     **Autosomal recessive cerebellar ataxias (ARCAs)** are more **numerous and genetically diverse** than dominant forms. They are caused by a wide variety of mutations affecting genes involved in:
@@ -128,12 +128,13 @@ st.markdown("_Note: Recessive ataxias are highly heterogeneous and often have ov
 with st.container():
     st.subheader("References")
     st.write("1. Beaudin, M., Matilla-Dueñas, A., Soong, B. W., Pedroso, J. L., Barsottini, O. G., Mitoma, H., Tsuji, S., Schmahmann, J. D., Manto, M., Rouleau, G. A., Klein, C., & Dupre, N. (2019). The Classification of Autosomal Recessive Cerebellar Ataxias: a Consensus Statement from the Society for Research on the Cerebellum and Ataxias Task Force. Cerebellum (London, England), 18(6), 1098–1125. https://doi.org/10.1007/s12311-019-01052-2")
-    st.write("2. Benomar A, Le Guern E, Dürr A, Ouhabi H, Stevanin G, Yahyaoui M, Chkili T, Agid Y, Brice A. Autosomal-dominant cerebellar ataxia with retinal degeneration (ADCA type II) is genetically different from ADCA type I. Ann Neurol. 1994 Apr;35(4):439-44. doi: 10.1002/ana.410350411. PMID: 8154871.")
+    st.write("2. Benomar, A., Le Guern, E., Dürr, A., Ouhabi, H., Stevanin, G., Yahyaoui, M., Chkili, T., Agid, Y., & Brice, A. (1994). Autosomal-dominant cerebellar ataxia with retinal degeneration (ADCA type II) is genetically different from ADCA type I. Annals of neurology, 35(4), 439–444. https://doi.org/10.1002/ana.410350411")
     st.write("3. Bhandari, J., Thada, P. K., & Samanta, D. (2023, September 15). Spinocerebellar ataxia. In StatPearls. StatPearls Publishing. https://www.ncbi.nlm.nih.gov/books/NBK557816/")
-    st.write("4. Fujioka, S., Sundal, C., & Wszolek, Z. K. (2013). Autosomal dominant cerebellar ataxia type III: a review of the phenotypic and genotypic characteristics. Orphanet journal of rare diseases, 8, 14. https://doi.org/10.1186/1750-1172-8-14")
-    st.write("5. Jayadev S, Bird TD. Hereditary ataxias: overview. Genet Med. 2013 Sep;15(9):673-83. doi: 10.1038/gim.2013.28. Epub 2013 Mar 28. PMID: 23538602.")
-    st.write("6. Klockgether, T., Mariotti, C., & Paulson, H. L. (2019). Spinocerebellar ataxia. Nature Reviews. Disease Primers, 5(1), 24–24. https://doi.org/10.1038/s41572-019-0074-3")
-    st.write("7. Sun, Y.-M., Lu, C., & Wu, Z.-Y. (2016). Spinocerebellar ataxia: relationship between phenotype and genotype - a review. Clinical Genetics, 90(4), 305–314. https://doi.org/10.1111/cge.12808")
-    st.write("8. Synofzik M, Schüle R. Overcoming the divide between ataxias and spastic paraplegias: Shared phenotypes, genes, and pathways. Mov Disord. 2017 Mar;32(3):332-345. doi: 10.1002/mds.26944. Epub 2017 Feb 14. PMID: 28195350; PMCID: PMC6287914.")
-    st.write("9. Whaley, N. R., Fujioka, S., & Wszolek, Z. K. (2011). Autosomal dominant cerebellar ataxia type I: A review of the phenotypic and genotypic characteristics. Orphanet Journal of Rare Diseases, 6, 33. https://doi.org/10.1186/1750-1172-6-33")
+    st.write("4. Fogel, B. L., & Perlman, S. (2007). Clinical features and molecular genetics of autosomal recessive cerebellar ataxias. The Lancet. Neurology, 6(3), 245–257. https://doi.org/10.1016/S1474-4422(07)70054-6")
+    st.write("5. Fujioka, S., Sundal, C., & Wszolek, Z. K. (2013). Autosomal dominant cerebellar ataxia type III: a review of the phenotypic and genotypic characteristics. Orphanet journal of rare diseases, 8, 14. https://doi.org/10.1186/1750-1172-8-14")
+    st.write("6. Jayadev, S., & Bird, T. D. (2013). Hereditary ataxias: overview. Genetics in medicine : official journal of the American College of Medical Genetics, 15(9), 673–683. https://doi.org/10.1038/gim.2013.28")
+    st.write("7. Klockgether, T., Mariotti, C., & Paulson, H. L. (2019). Spinocerebellar ataxia. Nature Reviews. Disease Primers, 5(1), 24–24. https://doi.org/10.1038/s41572-019-0074-3")
+    st.write("8. Sun, Y.-M., Lu, C., & Wu, Z.-Y. (2016). Spinocerebellar ataxia: relationship between phenotype and genotype - a review. Clinical Genetics, 90(4), 305–314. https://doi.org/10.1111/cge.12808")
+    st.write("9. Synofzik, M., & Schüle, R. (2017). Overcoming the divide between ataxias and spastic paraplegias: Shared phenotypes, genes, and pathways. Movement disorders : official journal of the Movement Disorder Society, 32(3), 332–345. https://doi.org/10.1002/mds.26944")
+    st.write("10. Whaley, N. R., Fujioka, S., & Wszolek, Z. K. (2011). Autosomal dominant cerebellar ataxia type I: A review of the phenotypic and genotypic characteristics. Orphanet Journal of Rare Diseases, 6, 33. https://doi.org/10.1186/1750-1172-6-33")
     
