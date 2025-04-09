@@ -35,7 +35,7 @@ with st.container():
 - **Spinocerebellar Ataxia (SCA)**: A group of inherited, progressive neurodegenerative disorders caused by mutations  
 - Primarily impacts the **cerebellum**, but may affect other areas like the **spinal cord** and **nerves**  
 - **Onset** varies widely by type and genetics
-"""
+""")
     with right_column: 
         st.image(img_cerebellum)
         st.markdown("_Note: Cerebellum is highlighted in red. (Source: https://storymd.com/journal/6weno3vc5w-spinocerebellar-ataxia-type-1)_")
