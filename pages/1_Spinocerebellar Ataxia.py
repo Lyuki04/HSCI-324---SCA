@@ -125,8 +125,8 @@ st.markdown("_Note: Recessive ataxias are highly heterogeneous and often have ov
 
 
     
-with st.container():
-    st.subheader("References")
+with st.expander("References"):
+    st.markdown("""
     st.write("1. Beaudin, M., Matilla-Dueñas, A., Soong, B. W., Pedroso, J. L., Barsottini, O. G., Mitoma, H., Tsuji, S., Schmahmann, J. D., Manto, M., Rouleau, G. A., Klein, C., & Dupre, N. (2019). The Classification of Autosomal Recessive Cerebellar Ataxias: a Consensus Statement from the Society for Research on the Cerebellum and Ataxias Task Force. Cerebellum (London, England), 18(6), 1098–1125. https://doi.org/10.1007/s12311-019-01052-2")
     st.write("2. Benomar, A., Le Guern, E., Dürr, A., Ouhabi, H., Stevanin, G., Yahyaoui, M., Chkili, T., Agid, Y., & Brice, A. (1994). Autosomal-dominant cerebellar ataxia with retinal degeneration (ADCA type II) is genetically different from ADCA type I. Annals of neurology, 35(4), 439–444. https://doi.org/10.1002/ana.410350411")
     st.write("3. Bhandari, J., Thada, P. K., & Samanta, D. (2023, September 15). Spinocerebellar ataxia. In StatPearls. StatPearls Publishing. https://www.ncbi.nlm.nih.gov/books/NBK557816/")
@@ -141,4 +141,4 @@ with st.container():
     st.write("12. Sun, Y.-M., Lu, C., & Wu, Z.-Y. (2016). Spinocerebellar ataxia: relationship between phenotype and genotype - a review. Clinical Genetics, 90(4), 305–314. https://doi.org/10.1111/cge.12808")
     st.write("13. Synofzik, M., & Schüle, R. (2017). Overcoming the divide between ataxias and spastic paraplegias: Shared phenotypes, genes, and pathways. Movement disorders : official journal of the Movement Disorder Society, 32(3), 332–345. https://doi.org/10.1002/mds.26944")
     st.write("14. Whaley, N. R., Fujioka, S., & Wszolek, Z. K. (2011). Autosomal dominant cerebellar ataxia type I: A review of the phenotypic and genotypic characteristics. Orphanet Journal of Rare Diseases, 6, 33. https://doi.org/10.1186/1750-1172-6-33")
-    
+    """)
