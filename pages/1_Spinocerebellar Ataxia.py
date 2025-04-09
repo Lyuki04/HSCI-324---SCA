@@ -42,7 +42,7 @@ with st.container():
 
 with st.container():
     st.write("---")
-    st.subheader("Types of Spinocerebellar Ataxia<sup>1,2</sup>", unsafe_allow_html=True)
+    st.markdown("###Types of Spinocerebellar Ataxia<sup>1,2</sup>", unsafe_allow_html=True)
     st.markdown("SCAs differ by **symptoms** and **inheritance patterns**.")
     st.page_link("pages/2_Inheritance Types.py", label="***Learn More About Inheritance Patterns***")
     with st.expander("Autosomal Dominant SCA"):
