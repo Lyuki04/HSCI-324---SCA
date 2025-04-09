@@ -49,5 +49,6 @@ st.markdown("""
 
 with st.expander("References"):
     st.markdown("""
-    1. Genetic Alliance, & The New York-Mid-Atlantic Consortium for Genetic and Newborn Screening Services. (2009, July 8). Understanding genetics: A New York, Mid-Atlantic guide for patients and health professionals (Appendix E, Inheritance patterns). Genetic Alliance. https://www.ncbi.nlm.nih.gov/books/NBK115561/")
+    1. Fowler, S., Roush, R., & Wise, J. (2025). Patterns of Inheritance. In Concepts of Biology. essay, OpenStax College. 
+    2. Genetic Alliance, & The New York-Mid-Atlantic Consortium for Genetic and Newborn Screening Services. (2009, July 8). Understanding genetics: A New York, Mid-Atlantic guide for patients and health professionals (Appendix E, Inheritance patterns). Genetic Alliance. https://www.ncbi.nlm.nih.gov/books/NBK115561/")
     """)
