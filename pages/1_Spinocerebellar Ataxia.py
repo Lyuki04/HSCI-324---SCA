@@ -27,7 +27,7 @@ img_CAG = Image.open("Images/CAG repeat.png")
 
 with st.container():
     st.write("---")
-    st.markdown("### What is Spinocerebellar Ataxia (SCA)?<sup>1,2</sup>", unsafe_allow_html=True)
+    st.markdown("### What is Spinocerebellar Ataxia (SCA)?<sup>1,2,3</sup>", unsafe_allow_html=True)
     left_column, right_column = st.columns((4,4))
     with left_column:
        st.markdown("""
@@ -42,7 +42,7 @@ with st.container():
 
 with st.container():
     st.write("---")
-    st.markdown("### Types of Spinocerebellar Ataxia<sup>1,2</sup>", unsafe_allow_html=True)
+    st.markdown("### Types of Spinocerebellar Ataxia<sup>1,2,3</sup>", unsafe_allow_html=True)
     st.markdown("SCAs differ by **symptoms** and **inheritance patterns**.")
     st.page_link("pages/2_Inheritance Types.py", label="***Learn More About Inheritance Patterns***")
     with st.expander("Autosomal Dominant SCA"):
