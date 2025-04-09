@@ -22,7 +22,7 @@ st.markdown("""
 | **Trait Expression**          | One copy of the dominant allele is sufficient to express the trait                     | Two copies of the recessive allele are required for trait expression                    |
 | **Inheritance Pattern**       | If one parent is affected (Aa), there is a **50% chance** the trait will be passed on  | The trait appears only when **both** parents are carriers or affected                   |
 | **Carrier Offspring Risk**    | Offspring are either affected or unaffected (no silent carriers)                       | Carrier parents have a **25% chance** of an affected child and **50% chance** of a carrier |
-
+""")
 
 # Expanders for more detail on each inheritance pattern
 with st.expander("Autosomal Dominant Inheritance"):
@@ -33,14 +33,13 @@ with st.expander("Autosomal Dominant Inheritance"):
     - **No carriers** in the classic sense,individuals who inherit the dominant allele will express the trait.
    """)
 
-with st.expander("🧬 Autosomal Recessive Inheritance"):
+with st.expander("🧬 Autosomal Dominant Inheritance"):
     st.markdown("""
-    - The trait is expressed **only when both copies** of the gene are the **recessive allele (aa)**.
-    - Individuals with **AA** (homozygous dominant) or **Aa** (heterozygous carrier) genotypes do **not** show symptoms.
-    - A child must inherit **one recessive allele from each parent** to express the trait.
-    - **Carrier individuals (Aa)** do **not** show the trait but have a **50% chance** of passing the recessive allele to each child.
-    - If **both parents are carriers**, there is a:
-        - **25% chance** the child will be affected (aa),
-        - **50% chance** the child will be a carrier (Aa),
-        - **25% chance** the child will be unaffected (AA).
-""")
+    - The trait is expressed when **at least one copy** of the dominant allele (**A**) is present.
+    - Individuals with **AA** (homozygous dominant) or **Aa** (heterozygous) genotypes **express the trait**.
+    - Only individuals with **aa** (homozygous recessive) do **not** show the trait.
+    - An affected parent (Aa) has a **50% chance** of passing the dominant allele to each child.
+    - If **both parents are affected** (e.g., Aa x Aa), there is a:
+        - **75% chance** the child will be affected (AA or Aa),
+        - **25% chance** the child will be unaffected (aa).
+    """)
