@@ -9,6 +9,7 @@ st.title("Understanding Autosomal Inheritance")
 st.markdown("""
 Inheritance patterns determine how genetic traits or diseases are passed down from parents to offspring. Two common inheritance patterns are **autosomal dominant** and **autosomal recessive** inheritance.
 <sup>1,2</sup>", unsafe_allow_html=True)
+""")
 
 with st.expander("🔑 Key Terms<sup>1,2</sup>", unsafe_allow_html=True):
     st.markdown("""
