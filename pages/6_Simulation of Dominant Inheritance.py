@@ -74,7 +74,6 @@ for frequencies in all_allele_frequencies:
 ax.set_xlabel("Generations")
 ax.set_ylabel("Disease Allele Frequency")
 ax.set_title("Wright-Fisher Model: SCA Dominant Inheritance with Genetic Drift")
-ax.legend([f"Simulation {i+1}" for i in range(num_simulations)], loc="lower right")
 
 st.pyplot(fig)
 
