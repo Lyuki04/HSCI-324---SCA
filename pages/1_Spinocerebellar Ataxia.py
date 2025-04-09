@@ -38,7 +38,7 @@ with st.container():
 """, unsafe_allow_html=True)
     with right_column: 
         st.image(img_cerebellum)
-        st.markdown("_Note: Cerebellum is highlighted in red. (Source:)_")
+        st.markdown("_Note: Cerebellum is highlighted in red. (Source:https://storymd.com/journal/6weno3vc5w-spinocerebellar-ataxia-type-1)_")
 
 with st.container():
     st.write("---")
