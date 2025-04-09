@@ -30,7 +30,7 @@ with st.expander("Autosomal Dominant Inheritance"):
     - **One copy of the dominant allele (A)** is enough for an individual to express the dominant trait. 
     - Individuals with the genotype **AA** (homozygous dominant) or **Aa** (heterozygous) will show the disease or trait.
     - There is a **50% chance** of passing the dominant allele to each child if one parent is affected (heterozygous or homozygous dominant).
-    - **No carriers** in the classic sense—individuals who inherit the dominant allele will express the trait.
+    - **No carriers** in the classic sense,individuals who inherit the dominant allele will express the trait.
    """)
 
 with st.expander("Autosomal Recessive Inheritance"):
