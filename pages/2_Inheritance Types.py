@@ -11,7 +11,7 @@ Inheritance patterns determine how genetic traits or diseases are passed down fr
 <sup>1,2</sup>", unsafe_allow_html=True)
 """)
 
-with st.expander("🔑 Key Terms<sup>1,2</sup>", unsafe_allow_html=True):
+with st.expander("🔑 Key Terms (1, 2)", unsafe_allow_html=True):
     st.markdown("""
     To understand inheritance patterns like autosomal dominant and recessive traits, it's essential to grasp a few foundational terms in genetics:
 
