@@ -15,7 +15,7 @@ with st.expander("🔑 Key Terms"):
     st.markdown("""
     To understand inheritance patterns like autosomal dominant and recessive traits, it's essential to grasp a few foundational terms in genetics:
 
-    ### 🧬 Genotype
+    ### 🧬 Genotype<sup>1</sup>
     - The **genotype** refers to the underlying genetic makeup of an organism—the specific alleles it carries for a given gene.
     - For example: `YY`, `Yy`, or `yy` represent different genotypes.
 
@@ -31,9 +31,6 @@ with st.expander("🔑 Key Terms"):
 
     These key terms form the basis for understanding **autosomal inheritance** patterns and how traits are passed from one generation to the next.
 
-    ### References
-    - Key Terms (1<sup>, 2</sup>)  # Superscript in the content
-    """)
 
 
 
