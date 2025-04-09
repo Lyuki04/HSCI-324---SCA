@@ -91,7 +91,7 @@ with st.container():
     left_column, right_column = st.columns((0.389,4))
     with right_column:
         st.image(img_CAG)
-        st.markdown("_Note: (Source:)_")
+        st.markdown("_Note: (Source:https://www.nature.com/articles/s41572-019-0074-3)_")
 
 st.markdown("#### Overview of Genetic Causes of Recessive Ataxias")
     
