@@ -17,12 +17,11 @@ st.subheader("Autosomal Dominant vs. Autosomal Recessive Inheritance")
 st.markdown("""
 | **Characteristic**                         | **Autosomal Dominant**                                      | **Autosomal Recessive**                                      |
 |--------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------|
-| **Affected Genotypes**                     | Homozygous dominant (AA) or heterozygous (Aa) individuals are affected | Only homozygous recessive (aa) individuals are affected |
-| **Carrier Individuals**                    | N/A | Heterozygous (Aa) individuals are carriers but do not show the trait |
-| **Trait Expression**                       | One copy of the dominant allele is sufficient to express the trait | Both copies of the recessive allele must be present for the trait to be expressed |
-| **Inheritance Pattern**                    | The trait is passed on with a 50% chance to offspring when one parent is affected | The trait is passed on only when both parents are carriers or affected |
-| **Affected Parents**                       | Affected parents have a 50% chance of passing the allele to offspring | Affected parents (aa) must both pass the allele to an offspring for expression of the trait |
-""")
+| **Affected Genotypes**                     | - Homozygous dominant (AA) or heterozygous (Aa) individuals express the trait | - Only homozygous recessive (aa) individuals express the trait |
+| **Carrier Individuals**                    | - N/A | Heterozygous (Aa) individuals are carriers but do not show the trait |
+| **Trait Expression**                       | - One copy of the dominant allele is sufficient to express the trait | Both copies of the recessive allele must be present for the trait to be expressed |
+| **Inheritance Pattern**                    | - There is a **50% chance** of passing the dominant allele to each child if one parent is affected (heterozygous or homozygous dominant)| - The trait is passed on only when both parents are carriers or affected |
+                                                                                                                                                                                       | - **Carrier individuals** (Aa) do not show the trait but have a 50% chance of passing the recessive allele to their children|
 
 # Expanders for more detail on each inheritance pattern
 with st.expander("Autosomal Dominant Inheritance"):
