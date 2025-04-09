@@ -27,15 +27,15 @@ img_CAG = Image.open("Images/CAG repeat.png")
 
 with st.container():
     st.write("---")
-    st.subheader("What is Spinocerebellar Ataxia (SCA)?")
+    st.subheader("What is Spinocerebellar Ataxia (SCA)?<sup>1</sup> "), unsafe_allow_html=True)
     left_column, right_column = st.columns((4,4))
     with left_column:
        st.markdown("""
-- **Ataxia**: Loss of coordination affecting movement, balance, and speech<sup>1</sup>  
+- **Ataxia**: Loss of coordination affecting movement, balance, and speech 
 - **Spinocerebellar Ataxia (SCA)**: A group of inherited, progressive neurodegenerative disorders caused by mutations  
 - Primarily impacts the **cerebellum**, but may affect other areas like the **spinal cord** and **nerves**  
 - **Onset** varies widely by type and genetics
-""", unsafe_allow_html=True)
+"""
     with right_column: 
         st.image(img_cerebellum)
         st.markdown("_Note: Cerebellum is highlighted in red. (Source: https://storymd.com/journal/6weno3vc5w-spinocerebellar-ataxia-type-1)_")
