@@ -11,12 +11,6 @@ def load_lottieurl(url):
         return None
     return r.json()
 
-def local_css(file_name):
-    with open(file_name) as f: 
-        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
-
-local_css("style/style.css")
-
 lottie_coding = "https://lottie.host/6c7b466d-e903-4a96-8b10-afed4d4d13fb/XO1Er1WTNm.json"
 img_autosomal = Image.open("Images/Autosomal.png")
 img_book = Image.open("Images/book.jpg")
