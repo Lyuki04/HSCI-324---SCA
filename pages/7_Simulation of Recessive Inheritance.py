@@ -123,10 +123,20 @@ with st.expander("🔁 Mutation Rate (μ)"):
 
 with st.expander("👥 Recessive Inheritance Model"):
     st.markdown("""
-- Only **aa** individuals are affected:
-  - `w_AA = 1`, `w_Aa = 1`, `w_aa = 1 - s`
-- This means carriers can silently pass on the disease allele, making it harder to eliminate from the population.
+- In this simulation, the disease allele (**a**) is **recessive**, meaning that **two copies** of the allele are required to express the disease phenotype.
+- Therefore, **only homozygous (aa)** individuals are considered affected, while **heterozygous carriers (Aa)** do **not** experience symptoms.
+- The fitness of these individuals is defined using the selection coefficient `s`:
+  - `w_aa = 1 - s`  (two disease alleles; affected)
+  - `w_Aa = 1`      (one disease allele; unaffected carrier)
+  - `w_AA = 1`      (no disease alleles; unaffected)
+
+This setup represents **recessively inherited disorders** like certain types of **Spinocerebellar Ataxia (SCA)**, where individuals can unknowingly carry and pass on the allele without being affected themselves.
+
+Although selection can act against individuals who are homozygous for the disease allele, the allele may still persist in the population — **hidden in carriers**. Combined with **genetic drift**, especially in small populations, this can lead to unpredictable outcomes: the allele might **disappear**, **persist**, or even **increase in frequency** over time.
+
+This component of the model helps us explore how **"silent" inheritance patterns** interact with evolutionary forces like drift and selection.
 """)
+
 
 with st.expander("🎲 Genetic Drift via Binomial Sampling"):
     st.markdown("""
