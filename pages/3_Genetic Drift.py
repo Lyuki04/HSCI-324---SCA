@@ -58,7 +58,7 @@ st.markdown("""
 
 st.subheader("Learn More About Fitness")
 
-with st.expander("Influence of Fitness on Dominant vs. Recessive Inheritance")
+with st.expander("Influence of Fitness on Dominant vs. Recessive Inheritance"):
     st.markdown("""
     | **Factor**                      | **Dominant Inheritance**                                      | **Recessive Inheritance**                                      |
     |----------------------------------|---------------------------------------------------------------|----------------------------------------------------------------|
