@@ -83,6 +83,7 @@ st.pyplot(fig)
 st.subheader("🔍 Explanation of the Simulation Design and Parameters (Recessive Model)")
 st.markdown("""
 This simulation models how a **recessively inherited** disease allele (like certain forms of **Spinocerebellar Ataxia**) evolves in a population using the **Wright-Fisher model**.
+""")
 
 with st.expander("🧬 Population Size (N)"):
     st.markdown("""
@@ -100,6 +101,7 @@ with st.expander("🌱 Initial Disease Allele Frequency (p₀)"):
 """)
 
 with st.expander("🧬 Generations (G)"):
+    st.markdown("""
 - Number of generations over which the simulation runs.
 - **Range**: 10 to 200.
 - More generations show long-term effects and trends.
