@@ -13,10 +13,10 @@ st.markdown("""
 """)
 
 # Basic Explanation of Selection
-st.markdown("""### What is Selection <sup>1,2,3</sup>
+st.markdown("""### What is Selection? <sup>1,2,3</sup>
 """,  unsafe_allow_html=True)
 st.markdown("""
-**Selection** is a fundamental evolutionary process where traits increase in frequency due to their advantage in survival and reproduction. In genetic diseases like **Spinocerebellar Ataxia (SCA)**, selection influences how disease alleles persist or diminish across generations. 
+ In genetic diseases like **Spinocerebellar Ataxia (SCA)**, selection influences how disease alleles persist or diminish across generations. 
             
 Selection can be categorized into **natural selection** and **artificial selection**. In natural selection, advantageous traits become more common, while harmful ones tend to decrease in frequency. For diseases like **SCA**, natural selection typically **reduces the frequency** of harmful alleles, particularly those that affect fitness (e.g., homozygous affected individuals may not survive or reproduce).
 
@@ -30,6 +30,7 @@ st.markdown("""
 | **Topic**                           | **Key Point**                                                                 |
 |--------------------------------------|-------------------------------------------------------------------------------|
 | What is Fitness?                     | The ability of an organism to survive, reproduce, and pass on its genes.      |
+| What is Selection?                   | **Selection** is a process where traits increase in frequency due to their advantage in survival and reproduction (fitness).|
 | Fitness and Dominant Inheritance     | Dominant mutations impact fitness immediately since they are expressed with one copy. |
 | Fitness and Recessive Inheritance    | Recessive mutations often don't affect fitness unless both copies are mutated (homozygous). |
 | Fitness and SCA                      | SCA mutations can affect fitness over generations, potentially spreading or declining depending on their impact. |

@@ -8,7 +8,8 @@ st.set_page_config(page_title="Wright-Fisher Model", page_icon="🧬", layout="w
 st.title("The Wright-Fisher Model and Its Application to Genetics")
 
 # Introduction to the Wright-Fisher Model
-st.subheader("What is the Wright-Fisher Model?")
+st.markdown("""### What is the Wright-Fisher Model? <sup>1,2,3</sup>
+""",  unsafe_allow_html=True)
 
 st.markdown("""
 The **Wright-Fisher model** is a fundamental model in population genetics that describes the genetic variation of alleles in a population over time. It is primarily used to simulate how allele frequencies evolve through generations under the influence of genetic drift, selection, mutation, and migration.
