@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("Genetic Drift")
 
-st.subheader("Overview<sup>1,2</sup>", unsafe_allow_html=True)
+st.markdown("### Overview<sup>1,2</sup>", unsafe_allow_html=True)
 # Interactive Table for Key Points (Optional)
 st.markdown("""
 | **Topic**                        | **Key Point**                                                                 |
