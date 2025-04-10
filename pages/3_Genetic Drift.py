@@ -69,7 +69,7 @@ with st.expander("📖 References"):
 
     2. Frankham, R., Ballou, J. D., & Briscoe, D. A. (2010). *Introduction to conservation genetics* (2nd ed.). Cambridge University Press.
 
-    3. Genetics Home Reference. (n.d.). *Spinocerebellar ataxia*. National Library of Medicine. Retrieved April 9, 2025, from https://ghr.nlm.nih.gov/condition/spinocerebellar-ataxia
+    3. Genetics Home Reference. (n.d.). *Spinocerebellar ataxia*. National Library of Medicine. Retrieved April 6, 2025, from https://ghr.nlm.nih.gov/condition/spinocerebellar-ataxia
 
     4. Griffiths, A. J. F., Wessler, S. R., Carroll, S. B., & Doebley, J. (2019). *Introduction to genetic analysis* (12th ed.). W.H. Freeman and Company.
 
@@ -79,9 +79,9 @@ with st.expander("📖 References"):
 
     7. Nussbaum, R. L., McInnes, R. R., & Willard, H. F. (2020). *Thompson & Thompson genetics in medicine* (8th ed.). Elsevier.
 
-    8. Online Mendelian Inheritance in Man (OMIM). (n.d.). *Spinocerebellar ataxia 1; SCA1*. Retrieved April 9, 2025, from https://omim.org/entry/164400
+    8. Online Mendelian Inheritance in Man (OMIM). (n.d.). *Spinocerebellar ataxia 1; SCA1*. Retrieved April 6, 2025, from https://omim.org/entry/164400
 
-    9. StatPearls. (2023). *Genetic drift*. National Center for Biotechnology Information. Retrieved April 9, 2025, from https://www.ncbi.nlm.nih.gov/books/NBK22252/
+    9. StatPearls. (2023). *Genetic drift*. National Center for Biotechnology Information. Retrieved April 6 2025, from https://www.ncbi.nlm.nih.gov/books/NBK22252/
 
     10. Zoghbi, H. Y., & Orr, H. T. (2000). Glutamine repeats and neurodegeneration. *Annual Review of Neuroscience, 23*, 217–247. https://doi.org/10.1146/annurev.neuro.23.1.217
     """)
