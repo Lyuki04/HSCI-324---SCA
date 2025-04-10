@@ -26,9 +26,9 @@ with st.expander("🔑 Key Terms"):
 
     ### 🧩 Homozygous vs. Heterozygous <sup>1,2</sup>
     - **Homozygous** organisms have two identical alleles for a gene:
-        - `YY` (homozygous dominant)
-        - `yy` (homozygous recessive)
-    - **Heterozygous** organisms have one dominant and one recessive allele: `Yy`
+        - `AA` (homozygous dominant)
+        - `aa` (homozygous recessive)
+    - **Heterozygous** organisms have one dominant and one recessive allele: `Aa`
 
     These key terms form the basis for understanding **autosomal inheritance** patterns and how traits are passed from one generation to the next.
     """, unsafe_allow_html=True)
