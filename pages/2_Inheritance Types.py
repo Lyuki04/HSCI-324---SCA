@@ -51,6 +51,7 @@ st.markdown("""
 | **Inheritance Pattern**       | If one parent is affected (Aa), there is a **50% chance** the trait will be passed on  | The trait appears only when **both** parents are carriers or affected                   |
 """)
 
+st.subheader("Reference List")
 with st.expander("References"):
     st.markdown("""
     1. Fowler, S., Roush, R., & Wise, J. (2025). Patterns of Inheritance. In Concepts of Biology. essay, OpenStax College. 
