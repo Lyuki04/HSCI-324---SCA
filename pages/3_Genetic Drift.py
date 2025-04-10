@@ -44,32 +44,6 @@ with st.expander("Why is Genetic Drift More Pronounced in Small Populations?"):
         - In small populations, genetic drift can rapidly increase or decrease the frequency of the SCA gene, depending on the random events at play.<sup>3,4,5</sup>
     """, unsafe_allow_html=True)
 
-st.markdown("### Overview of Fitness<sup>1,2</sup>", unsafe_allow_html=True)
-
-st.markdown("""
-| **Topic**                           | **Key Point**                                                                 |
-|--------------------------------------|-------------------------------------------------------------------------------|
-| What is Fitness?                     | The ability of an organism to survive, reproduce, and pass on its genes to the next generation. |
-| Fitness and Dominant Inheritance     | Dominant mutations are more likely to impact fitness immediately since they are expressed with one copy of the mutation. |
-| Fitness and Recessive Inheritance    | Recessive mutations often don't impact fitness unless both copies of the mutated gene are present (homozygous). |
-| Fitness and SCA                      | In Spinocerebellar Ataxia (SCA), mutations can affect fitness over generations, with the mutation spreading or declining due to fitness effects. |
-| Selection and Fitness                | Natural selection acts on the fitness of mutations, increasing or decreasing their frequency based on their effect on survival or reproduction. |
-""")
-
-st.subheader("Learn More About Fitness")
-
-with st.expander("Influence of Fitness on Dominant vs. Recessive Inheritance"):
-    st.markdown("""
-    | **Factor**                      | **Dominant Inheritance**                                      | **Recessive Inheritance**                                      |
-    |----------------------------------|---------------------------------------------------------------|----------------------------------------------------------------|
-    | **Expression of Mutation**       | Only **one copy** of the mutated gene is needed to express the disease. | **Two copies** of the mutated gene (one from each parent) are needed for expression. |
-    | **Impact of Fitness**            | More **prone to being selected against** if the mutation is harmful, as it expresses in heterozygotes or homozygotes. | More **stable in the population** since carriers don't express the disease, and the gene can persist at low frequencies without being selected against. |
-    | **Prevalence Change**            | Can **increase or decrease rapidly** in the population if the mutation is beneficial or harmful. The fitness of heterozygotes can influence the rate of change. | Mutations can **remain in the population** for longer periods without expressing the disease, but can still decrease over generations if they are harmful to homozygotes. |
-    | **Effect on Population**         | Changes in gene frequency are **immediately visible** because the mutation expresses in individuals with one copy, affecting fitness. | Effects on the population are **slower to be visible** because carriers do not express the disease and don't suffer the fitness costs of homozygotes. |
-    | **Persistence in the Population**| Dominant mutations **don’t persist as long** at low frequencies because they are expressed in the heterozygotes and can be subject to selection if harmful. | Recessive mutations can **persist for longer** in carriers without being expressed and can stay in the population even at low frequencies if there is no strong selection against them. |
-    """)
-
-
 st.subheader("Reference List")
 with st.expander("References"):
     st.markdown("""
