@@ -46,25 +46,6 @@ st.markdown("""
     | **Persistence in Population**    | Dominant mutations don’t persist as long at low frequencies due to their immediate expression. | Recessive mutations can persist longer in carriers and may remain even at low frequencies if not strongly selected against. |
     """)
 
-# Expandable Section on Fitness Impact
-st.subheader("Learn More About Fitness and Selection")
-
-# Selection Types and Impact on SCA
-with st.expander("How Selection Affects SCA: In depth"):
-   st.markdown("""
-   The effect of selection on **SCA** depends on whether the disease allele is **dominant** or **recessive**:
-
-   ### 1. **Dominant Inheritance** (e.g., **SCA1, SCA2, etc.**)
-      - Both **homozygous (AA)** and **heterozygous (Aa)** individuals experience a fitness reduction, leading to a **decrease in allele frequency**.
-      - **Selection pressure** is strong because both affected individuals contribute to disease transmission.
-      - Over time, the **frequency of the disease allele** can **decrease** significantly if selection is strong enough.
-
-   ### 2. **Recessive Inheritance** (e.g., **SCA3, SCA7, etc.**)
-      - Only **homozygous (aa)** individuals experience a fitness disadvantage, allowing the allele to persist in **heterozygous carriers (Aa)** without reducing fitness.
-      - Recessive alleles can be maintained at a **constant frequency** over generations, even with selection, since carriers do not suffer from the disease.
-      - While selection against **homozygous affected individuals** reduces allele frequency, the rate of decline is slower than in dominant diseases.
-   """)
-
 st.subheader("Reference List")
 with st.expander("References"):
     st.markdown("""
