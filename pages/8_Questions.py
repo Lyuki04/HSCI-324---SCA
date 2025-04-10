@@ -23,7 +23,20 @@ with st.expander("Answer"):
     """)
 
 st.subheader("Spinocerebellar Ataxia caused by CAG repeat expansions often displays this phenomenon, where the disease onset becomes earlier in successive generations.")
-with st.expander("Answer")
+with st.expander("Answer"):
     st.markdown("""
     Anticipation
     """)
+
+st.subheader("This term refers to the random fluctuation in gene frequencies over time, especially noticeable in smaller populations.")
+with st.expander("Answer"):
+    st.markdown("""
+    Genetic Drift
+    """)
+
+st.subheader("This phenomenon occurs when a small group from a larger population starts a new population, influencing genetic traits through drift.")
+with st.expander("Answer"):
+    st.markdown("""
+    Founder Effect
+    """)
+
