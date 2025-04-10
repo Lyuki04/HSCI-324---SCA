@@ -77,11 +77,82 @@ ax.set_title("Wright-Fisher Model: SCA Dominant Inheritance with Genetic Drift")
 
 st.pyplot(fig)
 
-# Explain Genetic Drift
+# Explain Simulation
+
+st.subheader("🔍 Explanation of the Simulation Design and Parameters")
 st.markdown("""
-### How Genetic Drift Affects the Disease Allele Frequency
+To create this simulation I expanded upon the basic **Wright-Fisher model** to study the evolution of a dominantly inherited **Spinocerebellar Ataxia (SCA)**. Here's how it works:
 
-Genetic drift is the random fluctuation of allele frequencies over time, especially in small populations. In the Wright-Fisher model, this effect is due to the random sampling of alleles each generation, where alleles can be lost or fixed due to chance alone.
-
-For **dominant inheritance**, individuals with a **dominant allele (A)** exhibit the disease even if they are heterozygous (Aa). Genetic drift can significantly impact the frequency of this allele, especially when the initial frequency is low or the population is small. This is because chance events may cause the dominant allele to be lost or fixed, even if there is a selective advantage to having it.
+---
 """)
+with st.expander("🧬 Population Size (N)"):
+    st.markdown("""
+- Controls how strongly **genetic drift** affects allele frequencies.
+- **Range**: 50 to 1000.
+- Smaller populations = more drift (random effects).
+- Larger populations = selection/mutation dominate more.
+
+---
+""")
+
+with st.expander("🌱 Initial Disease Allele Frequency (p₀)"):
+    st.markdown("""
+- Sets how common the disease allele (A) is at the start.
+- **Range**: 0.01 to 1.0.
+- Lower values simulate rare genetic diseases.
+
+---
+""")
+    
+with st.expander("🧬 Generations (G)"):
+    st.markdown("""
+- Number of generations to simulate.
+- **Range**: 10 to 200.
+- Longer simulations show long-term effects of drift and selection.
+
+---
+""")
+    
+with st.expander("⚖️ Selection Coefficient (s)"):
+    st.markdown("""
+- Models the **fitness cost** of the disease.
+- **Range**: 0.0 (neutral) to 1.0 (lethal).
+- Default 0.1 = 10% fitness disadvantage for carriers.
+
+---
+""")
+
+with st.expander("🔁 Mutation Rate (μ)"):
+    st.markdown("""
+- Simulates **back mutation**: A → a.
+- **Range**: 10⁻⁷ to 10⁻⁴ (log scale).
+- Default: 10⁻⁶, a realistic point mutation rate in humans.
+
+---
+""")
+
+with st.expander("👥 Dominant Inheritance Model"):
+    st.markdown("""
+- Both **Aa** and **AA** genotypes have reduced fitness:
+- `w_AA = w_Aa = 1 - s`
+- Reflects diseases like **SCA**, where one mutant allele causes symptoms.
+
+---
+""")
+    
+with st.expander ("🎲 Genetic Drift via Binomial Sampling"):
+    st.markdown("""
+- Each generation’s alleles are sampled randomly using a binomial distribution.
+- Reflects how chance affects inheritance in a population.
+
+---
+""")
+
+with st.expander("🔁 Multiple Simulation Runs"):
+    st.markdown("""
+- Seven runs are shown to visualize **variation due to chance**.
+- Even with the same parameters, different outcomes can happen!
+
+---
+""")
+
