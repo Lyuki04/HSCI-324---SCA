@@ -40,3 +40,20 @@ with st.expander("Answer"):
     Founder Effect
     """)
 
+st.subheader("The ability of an organism to survive, reproduce, and pass on its genes.")
+with st.expander("Answer"):
+    st.markdown("""
+    Fitness
+    """)
+
+st.subheader("The Wright-Fisher model assumes this kind of population structure.")
+with st.expander("Answer"):
+    st.markdown("""
+    Discrete, non-overlapping
+    """)
+
+st.subheader("This factor is assumed to be constant across generations in the Wright-Fisher model, meaning there is no change")
+with st.expander("Answer"):
+    st.markdown("""
+    Population size
+    """)
