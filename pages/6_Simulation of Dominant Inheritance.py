@@ -110,7 +110,6 @@ with st.expander("🧬 Generations (G)"):
 - **Range**: 10 to 200.
 - Longer simulations show long-term effects of drift and selection.
 
----
 """)
     
 with st.expander("⚖️ Selection Coefficient (s)"):
@@ -119,7 +118,6 @@ with st.expander("⚖️ Selection Coefficient (s)"):
 - **Range**: 0.0 (neutral) to 1.0 (lethal).
 - Default 0.1 = 10% fitness disadvantage for carriers.
 
----
 """)
 
 with st.expander("🔁 Mutation Rate (μ)"):
@@ -128,7 +126,6 @@ with st.expander("🔁 Mutation Rate (μ)"):
 - **Range**: 10⁻⁷ to 10⁻⁴ (log scale).
 - Default: 10⁻⁶, a realistic point mutation rate in humans.
 
----
 """)
 
 with st.expander("👥 Dominant Inheritance Model"):
@@ -137,7 +134,6 @@ with st.expander("👥 Dominant Inheritance Model"):
 - `w_AA = w_Aa = 1 - s`
 - Reflects diseases like **SCA**, where one mutant allele causes symptoms.
 
----
 """)
     
 with st.expander ("🎲 Genetic Drift via Binomial Sampling"):
@@ -145,7 +141,6 @@ with st.expander ("🎲 Genetic Drift via Binomial Sampling"):
 - Each generation’s alleles are sampled randomly using a binomial distribution.
 - Reflects how chance affects inheritance in a population.
 
----
 """)
 
 with st.expander("🔁 Multiple Simulation Runs"):
@@ -153,6 +148,5 @@ with st.expander("🔁 Multiple Simulation Runs"):
 - Seven runs are shown to visualize **variation due to chance**.
 - Even with the same parameters, different outcomes can happen!
 
----
 """)
 
