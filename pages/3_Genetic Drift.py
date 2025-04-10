@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("Genetic Drift")
 
-st.markdown("### Overview<sup>1,2</sup>", unsafe_allow_html=True)
+st.markdown("### Overview<sup>1,2,3</sup>", unsafe_allow_html=True)
 
 # Interactive Table for Key Points (Optional)
 st.markdown("""
@@ -47,10 +47,10 @@ with st.expander("How Does Genetic Drift Affect Spinocerebellar Ataxia (SCA)?"):
 
 with st.expander("Why is Genetic Drift More Pronounced in Small Populations?"):
     st.markdown("""
-        - In **small populations**, random events (like who mates with whom) can drastically change gene frequencies.
+        - In **small populations**, random events (like who mates with whom) can drastically change gene frequencies.<sup>3</sup>
         - In large populations, the effects of genetic drift are less noticeable because of the **larger gene pool**.
         - In small populations, genetic drift can rapidly increase or decrease the frequency of the SCA gene, depending on the random events at play.
-    """)
+    """, unsafe_allow_html=True)
 
 with st.expander("How Genetic Drift Affects Dominant vs. Recessive Inheritance"):
     st.markdown("""
@@ -67,7 +67,6 @@ st.subheader("Reference List")
 with st.expander("References"):
     st.markdown("""
     1. Griffiths, A. J. F., Wessler, S. R., Carroll, S. B., & Doebley, J. (2019). *Introduction to genetic analysis* (12th ed.). W.H. Freeman and Company.
-
     2. Hartl, D. L., & Clark, A. G. (2007). *Principles of population genetics* (4th ed.). Sinauer Associates.
-
+    3. Kliman, R., Sheehy, B., & Schultz, J. (2008). Genetic drift and effective population size. Nature Education, 1(3), 3.
     """)
