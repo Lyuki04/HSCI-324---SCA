@@ -67,19 +67,19 @@ with st.expander("Answer"):
     """)
 
 st.subheader("How does genetic drift influence allele frequencies in small populations?")
-with st.expander("Answer")
+with st.expander("Answer"):
     st.markdown("""
      In small populations, genetic drift has a stronger effect because random fluctuations in allele frequencies can lead to the loss of genetic diversity or the random fixation of alleles. These fluctuations are more pronounced due to the smaller gene pool and fewer alleles to choose from.
     """)
 
 st.subheader("How might both selection and genetic drift influence the frequency of the disease allele in the context of SCA1 (a dominant inheritance form of Spinocerebellar Ataxia) over generations?")
-with st.expander("Answer")
+with st.expander("Answer"):
     st.markdown("""
      In SCA1 (dominant inheritance), selection acts to reduce the frequency of the disease allele because affected individuals may have lower fitness (e.g., reduced survival or reproduction). However, genetic drift causes random fluctuations in allele frequencies, especially in small populations, and can either increase or decrease the frequency of the disease allele by chance, independent of its fitness effect. Over time, selection will typically reduce the allele frequency, while genetic drift can cause random changes, particularly in small populations.
     """)
 
 st.subheader("In what ways can the Wright-Fisher model help researchers understand the dynamics of disease allele frequencies in a population?")
-with st.expander("Answer")
+with st.expander("Answer"):
     st.markdown("""
      The Wright-Fisher model helps researchers simulate how disease allele frequencies evolve over time under the influence of genetic drift, selection, and mutation. It provides insight into how alleles fluctuate due to random sampling, how selection pressures reduce or increase the frequency of harmful alleles, and how genetic diversity is lost or maintained, all of which are crucial for understanding genetic diseases like SCA.
     """)
