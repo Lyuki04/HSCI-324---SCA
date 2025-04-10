@@ -30,7 +30,7 @@ with st.container():
         st.subheader("Inheritance Types")
         st.page_link("pages/2_Inheritance Types.py", label="***Learn More***")
     with middle2_column:
-        st.subheader("Genetic Drift")
+        st.subheader("Genetic Drift and Fitness")
         st.page_link("pages/3_Genetic Drift.py", label="***Learn More***")
     with middle3_column:
         st.subheader("Wright-Fisher Model")

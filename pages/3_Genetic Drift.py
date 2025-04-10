@@ -1,8 +1,8 @@
 import streamlit as st
 
-st.title("Genetic Drift")
+st.title("Genetic Drift and Fitness")
 
-st.markdown("### Overview<sup>1,2,3</sup>", unsafe_allow_html=True)
+st.markdown("### Overview of Genetic Drift<sup>1,2,3</sup>", unsafe_allow_html=True)
 
 # Interactive Table for Key Points (Optional)
 st.markdown("""
@@ -12,31 +12,23 @@ st.markdown("""
 | Why Does it Matter for SCA?       | Increases the prevalence of disease-causing mutations, especially in small populations. |
 | Impact on Small Populations       | Random events have a larger impact on gene frequency in small groups.         |
 | SCA and Genetic Drift             | SCA mutations can become more common in small, isolated populations by chance. |
-| Dominant vs Recessive Inheritance  | Dominant mutations are more easily impacted by genetic drift, and recessive mutations can persist in carriers. |
 """)
 
 st.subheader("Learn More About Genetic Drift")
 
 with st.expander("What is Genetic Drift?"):
     st.markdown("""
-        - **Genetic drift** is a random process where gene frequencies change in a population due to chance.
-        - Genetic drift doesn't depend on whether a gene provides a survival advantage.
-        - More pronounced in **small populations**.
-        - Over time, some genes may become **more or less common**, or even disappear entirely.
-    """)
+        - **Genetic drift** is a random process where gene frequencies change in a population due to chance.<sup>1,2</sup>
+        - Genetic drift doesn't depend on whether a gene provides a survival advantage.<sup>1,2</sup>
+        - More pronounced in **small populations**.<sup>1,2</sup>
+        - Over time, some genes may become **more or less common**, or even disappear entirely.<sup>1,2</sup>
+    """, unsafe_allow_html=True)
 
 with st.expander("Common Types of Genetic Drift"):
     st.markdown("""
-        - **Founder effect**: When a small group of individuals from a larger population start a new population, their genetic traits can become more common in future generations due to genetic drift.
-        - **Bottleneck effect**: After a major population reduction, the gene pool is limited, and certain genes may become overrepresented due to genetic drift.
-    """)
-
-with st.expander("Why Does Genetic Drift Matter for Diseases?"):
-    st.markdown("""
-        - In diseases like **Spinocerebellar Ataxia (SCA)**, genetic drift can impact how the disease-causing gene is passed down.
-        - **In small or isolated populations**, genetic drift can increase or decrease the frequency of the SCA gene by chance.
-        - This could make it more likely for future generations to inherit the disease-causing mutation, even if the mutation has no survival advantage.
-    """)
+        - **Founder effect**: When a small group of individuals from a larger population start a new population, their genetic traits can become more common in future generations due to genetic drift.<sup>1,2,6</sup>
+        - **Bottleneck effect**: After a major population reduction, the gene pool is limited, and certain genes may become overrepresented due to genetic drift.<sup>1,2,6</sup>
+    """, unsafe_allow_html=True)
 
 with st.expander("How Does Genetic Drift Affect Spinocerebellar Ataxia (SCA)?"):
     st.markdown("""
@@ -47,27 +39,44 @@ with st.expander("How Does Genetic Drift Affect Spinocerebellar Ataxia (SCA)?"):
 
 with st.expander("Why is Genetic Drift More Pronounced in Small Populations?"):
     st.markdown("""
-        - In **small populations**, random events (like who mates with whom) can drastically change gene frequencies.<sup>3,4</sup>
-        - In large populations, the effects of genetic drift are less noticeable because of the **larger gene pool**.<sup>3,4</sup>
-        - In small populations, genetic drift can rapidly increase or decrease the frequency of the SCA gene, depending on the random events at play.<sup>3,4</sup>
+        - In **small populations**, random events (like who mates with whom) can drastically change gene frequencies.<sup>3,4,5</sup>
+        - In large populations, the effects of genetic drift are less noticeable because of the **larger gene pool**.<sup>3,4,5</sup>
+        - In small populations, genetic drift can rapidly increase or decrease the frequency of the SCA gene, depending on the random events at play.<sup>3,4,5</sup>
     """, unsafe_allow_html=True)
 
-with st.expander("How Genetic Drift Affects Dominant vs. Recessive Inheritance"):
-    st.markdown("""
-    | **Factor**                      | **Dominant Inheritance**                                  | **Recessive Inheritance**                                      |
-    |----------------------------------|-----------------------------------------------------------|----------------------------------------------------------------|
-    | **Expression of Mutation**       | Only **one copy** of the mutated gene is needed to express the disease. | **Two copies** of the mutated gene (one from each parent) are needed for expression. |
-    | **Impact of Genetic Drift**      | More **prone to changes** in frequency because any individual with one copy of the mutation can express the disease. | **More stable** in the population because carriers (heterozygotes) don’t show symptoms, and the gene can persist at low frequencies. |
-    | **Prevalence Change**            | **Can increase or decrease** rapidly in the population since the mutation can be expressed in heterozygotes. | Mutations can **remain in the population** for longer periods without expressing the disease, but can still decrease over generations. |
-    | **Effect on Population**         | Changes in the gene frequency are **immediately visible** because the mutation expresses in individuals with one copy. | Effects of genetic drift are **slower to be visible**, as carriers may carry the gene without expressing symptoms. |
-    | **Persistence in the Population**| Dominant mutations **don’t persist** as long at low frequencies because they are expressed sooner. | Recessive mutations can **persist for longer** in carriers without being expressed, even at low frequencies. |
+st.markdown("### Overview of Fitness<sup>1,2</sup>", unsafe_allow_html=True)
+
+st.markdown("""
+| **Topic**                           | **Key Point**                                                                 |
+|--------------------------------------|-------------------------------------------------------------------------------|
+| What is Fitness?                     | The ability of an organism to survive, reproduce, and pass on its genes to the next generation. |
+| Fitness and Dominant Inheritance     | Dominant mutations are more likely to impact fitness immediately since they are expressed with one copy of the mutation. |
+| Fitness and Recessive Inheritance    | Recessive mutations often don't impact fitness unless both copies of the mutated gene are present (homozygous). |
+| Fitness and SCA                      | In Spinocerebellar Ataxia (SCA), mutations can affect fitness over generations, with the mutation spreading or declining due to fitness effects. |
+| Selection and Fitness                | Natural selection acts on the fitness of mutations, increasing or decreasing their frequency based on their effect on survival or reproduction. |
 """)
+
+st.subheader("Learn More About Fitness")
+
+with st.expander("Influence of Fitness on Dominant vs. Recessive Inheritance")
+    st.markdown("""
+    | **Factor**                      | **Dominant Inheritance**                                      | **Recessive Inheritance**                                      |
+    |----------------------------------|---------------------------------------------------------------|----------------------------------------------------------------|
+    | **Expression of Mutation**       | Only **one copy** of the mutated gene is needed to express the disease. | **Two copies** of the mutated gene (one from each parent) are needed for expression. |
+    | **Impact of Fitness**            | More **prone to being selected against** if the mutation is harmful, as it expresses in heterozygotes or homozygotes. | More **stable in the population** since carriers don't express the disease, and the gene can persist at low frequencies without being selected against. |
+    | **Prevalence Change**            | Can **increase or decrease rapidly** in the population if the mutation is beneficial or harmful. The fitness of heterozygotes can influence the rate of change. | Mutations can **remain in the population** for longer periods without expressing the disease, but can still decrease over generations if they are harmful to homozygotes. |
+    | **Effect on Population**         | Changes in gene frequency are **immediately visible** because the mutation expresses in individuals with one copy, affecting fitness. | Effects on the population are **slower to be visible** because carriers do not express the disease and don't suffer the fitness costs of homozygotes. |
+    | **Persistence in the Population**| Dominant mutations **don’t persist as long** at low frequencies because they are expressed in the heterozygotes and can be subject to selection if harmful. | Recessive mutations can **persist for longer** in carriers without being expressed and can stay in the population even at low frequencies if there is no strong selection against them. |
+    """)
+
 
 st.subheader("Reference List")
 with st.expander("References"):
     st.markdown("""
     1. Griffiths, A. J. F., Wessler, S. R., Carroll, S. B., & Doebley, J. (2019). *Introduction to genetic analysis* (12th ed.). W.H. Freeman and Company.
     2. Hartl, D. L., & Clark, A. G. (2007). *Principles of population genetics* (4th ed.). Sinauer Associates.
-    3. Kliman, R., Sheehy, B., & Schultz, J. (2008). Genetic drift and effective population size. Nature Education, 1(3), 3.
-    4. Mathur, S., Tomeček, J. M., Tarango-Arámbula, L. A., Perez, R. M., & DeWoody, J. A. (2023). An evolutionary perspective on genetic load in small, isolated populations as informed by whole genome resequencing and forward-time simulations. Evolution, 77(3), 690–704. https://doi.org/10.1093/evolut/qpac061
+    3. LaBar, T., & Adami, C. (2017). Evolution of drift robustness in small populations. Nature communications, 8(1), 1012. https://doi.org/10.1038/s41467-017-01003-7
+    4. Kliman, R., Sheehy, B., & Schultz, J. (2008). Genetic drift and effective population size. Nature Education, 1(3), 3.
+    5. Mathur, S., Tomeček, J. M., Tarango-Arámbula, L. A., Perez, R. M., & DeWoody, J. A. (2023). An evolutionary perspective on genetic load in small, isolated populations as informed by whole genome resequencing and forward-time simulations. Evolution, 77(3), 690–704. https://doi.org/10.1093/evolut/qpac061
+    6. Understanding Evolution. (n.d.). Bottlenecks and founder effects. Understanding Evolution. University of California Museum of Paleontology. Retrieved April 6, 2025, from https://evolution.berkeley.edu/bottlenecks-and-founder-effects/​
     """)
