@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Genetic Drift and Fitness")
+st.title("Genetic Drift")
 
 st.markdown("### Overview of Genetic Drift<sup>1,2,3</sup>", unsafe_allow_html=True)
 

@@ -36,7 +36,7 @@ with st.container():
         st.subheader("Wright-Fisher Model")
         st.page_link("pages/5_Wright-Fisher Model.py", label="***Learn More***")
     with middle4_column:
-        st.subheader("Fitness and Selection"")
+        st.subheader("Fitness and Selection")
         st.page_link("pages/4_Selection.py", label="***Learn More***")
     with right_column:
         st.subheader("Simulations")
