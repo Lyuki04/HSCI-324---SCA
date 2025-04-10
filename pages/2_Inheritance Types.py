@@ -18,7 +18,7 @@ with st.expander("🔑 Key Terms"):
 
     ### 🧬 Genotype <sup>1,2</sup>
     - The **genotype** refers to the underlying genetic makeup of an organism—the specific alleles it carries for a given gene.
-    - For example: `YY`, `Yy`, or `yy` represent different genotypes.
+    - For example: `AA`, `Aa`, or `aa` represent different genotypes.
 
     ### 🌱 Phenotype <sup>1,2</sup>
     - The **phenotype** is the **observable** trait or characteristic that results from the genotype.
