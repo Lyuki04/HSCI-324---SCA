@@ -36,7 +36,7 @@ st.markdown("""
 
 st.markdown("""### Influence of Fitness/Selection on Dominant vs. Recessively Inherited Diseases<sup>1,2,3</sup>
    """,  unsafe_allow_html=True)
-   st.markdown("""
+st.markdown("""
     | **Factor**                      | **Dominant Inheritance**                                      | **Recessive Inheritance**                                      |
     |----------------------------------|---------------------------------------------------------------|----------------------------------------------------------------|
     | **Expression of Mutation**       | One copy of the mutated gene expresses the disease.           | Two copies of the mutated gene are needed for expression.      |
