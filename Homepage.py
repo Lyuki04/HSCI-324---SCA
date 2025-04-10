@@ -22,7 +22,7 @@ st_lottie(lottie_coding, height=300, key="DNA")
 with st.container():
     st.write("---")
     st.header("Topics")
-    left_column, middle1_column, middle2_column, middle3_column, right_column = st.columns((4.3,4,3,3.8,4))
+    left_column, middle1_column, middle2_column, middle3_column,middle4_column right_column = st.columns((4.3,4,3,3.8,3.8,4))
     with left_column:
         st.subheader("Spinocerebellar Ataxia")
         st.page_link("pages/1_Spinocerebellar Ataxia.py", label="***Learn More***")
@@ -30,11 +30,14 @@ with st.container():
         st.subheader("Inheritance Types")
         st.page_link("pages/2_Inheritance Types.py", label="***Learn More***")
     with middle2_column:
-        st.subheader("Genetic Drift and Fitness")
+        st.subheader("Genetic Drift")
         st.page_link("pages/3_Genetic Drift.py", label="***Learn More***")
     with middle3_column:
         st.subheader("Wright-Fisher Model")
         st.page_link("pages/5_Wright-Fisher Model.py", label="***Learn More***")
+    with middle4_column:
+        st.subheader("Fitness and Selection"")
+        st.page_link("pages/4_Selection.py", label="***Learn More***")
     with right_column:
         st.subheader("Simulations")
         st.write("**Dominant Inheritance**")

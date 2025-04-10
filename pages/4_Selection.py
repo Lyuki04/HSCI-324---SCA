@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Selection")
+st.title("Fitness and Selection")
 
 # Set the page configuration for Streamlit
 
