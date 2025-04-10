@@ -21,7 +21,7 @@ The model assumes:
 - **No migration**: There is no gene flow into or out of the population.
 - **Allele frequency changes due to genetic drift**: Random sampling of alleles affects the next generation's allele frequencies.
 
-### Why is the Wright-Fisher Model Useful?
+### Why is the Wright-Fisher Model Useful? <sup>1,2,3,4</sup>
 
 The Wright-Fisher model is useful because it provides a simple, yet powerful framework for understanding the dynamics of genetic variation in populations. It helps to:
 - **Model genetic drift**: It shows how random fluctuations in allele frequencies can lead to the loss of genetic diversity, especially in small populations.
@@ -29,7 +29,7 @@ The Wright-Fisher model is useful because it provides a simple, yet powerful fra
 - **Simulate genetic diseases**: It is particularly valuable in studying the inheritance of genetic disorders, such as **Spinocerebellar Ataxia (SCA)**, to understand how genetic variation of disease alleles may change over generations.
 - **Evaluate the impact of different factors**: Researchers can adjust parameters like population size, mutation rate, and selection coefficients to explore their effects on allele frequency dynamics.
 
-### Key Features of the Wright-Fisher Model:
+### Key Features of the Wright-Fisher Model <sup>1,2,3,4</sup>:
 - **Genetic Drift**: This model simulates random fluctuations in allele frequencies due to the random sampling of alleles during reproduction.
 - **Mutation**: The model can incorporate mutation (back mutations), where alleles may change over generations.
 - **Selection**: The Wright-Fisher model can account for natural selection by assigning fitness values to different genotypes (e.g., a diseased allele might be selected against).
@@ -47,7 +47,7 @@ In the case of **Spinocerebellar Ataxia (SCA)**, a genetic disorder caused by mu
 By using the Wright-Fisher model, you can simulate how the disease allele behaves over time in a population, accounting for random fluctuations (drift) and the influence of selective pressures. This can help researchers understand how **SCA alleles** might be passed on and how their frequency may change over multiple generations.
 
 ---
-""")
+""",  unsafe_allow_html=True)
 
 st.subheader("Reference List")
 with st.expander("References"):
