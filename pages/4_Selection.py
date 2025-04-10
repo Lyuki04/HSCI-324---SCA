@@ -13,8 +13,11 @@ st.markdown("""
 """)
 
 # Basic Explanation of Selection
-st.subheader("What is Selection?")
+st.markdown("""### What is Selection <sup>1,2,3</sup>
+""",  unsafe_allow_html=True)
 st.markdown("""
+**Selection** is a fundamental evolutionary process where traits increase in frequency due to their advantage in survival and reproduction. In genetic diseases like **Spinocerebellar Ataxia (SCA)**, selection influences how disease alleles persist or diminish across generations. 
+            
 Selection can be categorized into **natural selection** and **artificial selection**. In natural selection, advantageous traits become more common, while harmful ones tend to decrease in frequency. For diseases like **SCA**, natural selection typically **reduces the frequency** of harmful alleles, particularly those that affect fitness (e.g., homozygous affected individuals may not survive or reproduce).
 
 Selection is not just about the presence or absence of a disease allele, but how the allele interacts with fitness, influencing whether it persists or diminishes in a population.

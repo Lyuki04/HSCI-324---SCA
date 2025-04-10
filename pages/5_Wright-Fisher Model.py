@@ -47,3 +47,12 @@ By using the Wright-Fisher model, you can simulate how the disease allele behave
 
 ---
 """)
+
+st.subheader("Reference List")
+with st.expander("References"):
+    st.markdown("""
+    1. Griffiths, A. J. F., Wessler, S. R., Carroll, S. B., & Doebley, J. (2019). *Introduction to genetic analysis* (12th ed.). W.H. Freeman and Company.
+    2. Hartl, D. L., & Clark, A. G. (2007). *Principles of population genetics* (4th ed.). Sinauer Associates.
+    3. Messer, P. W. (2016). Neutral models of genetic drift and mutation. In R. M. Kliman (Ed.), Encyclopedia of evolutionary biology (pp. 119–123). Academic Press. https://doi.org/10.1016/B978-0-12-800049-6.00031-7
+    """)
+
