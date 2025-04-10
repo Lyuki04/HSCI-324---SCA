@@ -83,7 +83,6 @@ st.subheader("🔍 Explanation of the Simulation Design and Parameters")
 st.markdown("""
 To create this simulation I expanded upon the basic **Wright-Fisher model** to study the evolution of a dominantly inherited **Spinocerebellar Ataxia (SCA)**. Here's how it works:
 
----
 """)
 with st.expander("🧬 Population Size (N)"):
     st.markdown("""
@@ -92,7 +91,6 @@ with st.expander("🧬 Population Size (N)"):
 - Smaller populations = more drift (random effects).
 - Larger populations = selection/mutation dominate more.
 
----
 """)
 
 with st.expander("🌱 Initial Disease Allele Frequency (p₀)"):
@@ -101,7 +99,6 @@ with st.expander("🌱 Initial Disease Allele Frequency (p₀)"):
 - **Range**: 0.01 to 1.0.
 - Lower values simulate rare genetic diseases.
 
----
 """)
     
 with st.expander("🧬 Generations (G)"):
