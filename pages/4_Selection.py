@@ -34,9 +34,7 @@ st.markdown("""
 """)
 
 
-
-with st.expander("Overview"):
-   st.markdown("""### Influence of Fitness/Selection on Dominant vs. Recessively Inherited Diseases<sup>1,2,3</sup>
+st.markdown("""### Influence of Fitness/Selection on Dominant vs. Recessively Inherited Diseases<sup>1,2,3</sup>
    """,  unsafe_allow_html=True)
    st.markdown("""
     | **Factor**                      | **Dominant Inheritance**                                      | **Recessive Inheritance**                                      |
