@@ -21,7 +21,8 @@ Selection is not just about the presence or absence of a disease allele, but how
 """)
 
 # Overview of Fitness
-st.markdown("### Overview of Fitness and Selection <sup>1,2,3</sup>", unsafe_allow_html=True)
+st.markdown("""### Overview of Fitness and Selection <sup>1,2,3</sup>
+""",  unsafe_allow_html=True)
 st.markdown("""
 | **Topic**                           | **Key Point**                                                                 |
 |--------------------------------------|-------------------------------------------------------------------------------|
@@ -35,7 +36,8 @@ st.markdown("""
 
 
 with st.expander("Overview"):
-   st.subheader("Influence of Fitness/Selection on Dominant vs. Recessively Inherited Diseases<sup>1,2,3</sup>", unsafe_allow_html=True)
+   st.markdown("""### Influence of Fitness/Selection on Dominant vs. Recessively Inherited Diseases<sup>1,2,3</sup>
+   """,  unsafe_allow_html=True)
    st.markdown("""
     | **Factor**                      | **Dominant Inheritance**                                      | **Recessive Inheritance**                                      |
     |----------------------------------|---------------------------------------------------------------|----------------------------------------------------------------|
