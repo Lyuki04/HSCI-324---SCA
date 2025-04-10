@@ -8,7 +8,7 @@ st.set_page_config(page_title="Wright-Fisher Model", page_icon="🧬", layout="w
 st.title("The Wright-Fisher Model and Its Application to Genetics")
 
 # Introduction to the Wright-Fisher Model
-st.markdown("""### What is the Wright-Fisher Model? <sup>1,2,3,4</sup>
+st.markdown("""### What is the Wright-Fisher Model? <sup>1,2,3,4,5</sup>
 """,  unsafe_allow_html=True)
 
 st.markdown("""
@@ -21,7 +21,7 @@ The model assumes:
 - **No migration**: There is no gene flow into or out of the population.
 - **Allele frequency changes due to genetic drift**: Random sampling of alleles affects the next generation's allele frequencies.
 
-### Why is the Wright-Fisher Model Useful? <sup>1,2,3,4</sup>
+### Why is the Wright-Fisher Model Useful? <sup>1,2,3,4,5</sup>
 
 The Wright-Fisher model is useful because it provides a simple, yet powerful framework for understanding the dynamics of genetic variation in populations. It helps to:
 - **Model genetic drift**: It shows how random fluctuations in allele frequencies can lead to the loss of genetic diversity, especially in small populations.
@@ -29,14 +29,14 @@ The Wright-Fisher model is useful because it provides a simple, yet powerful fra
 - **Simulate genetic diseases**: It is particularly valuable in studying the inheritance of genetic disorders, such as **Spinocerebellar Ataxia (SCA)**, to understand how genetic variation of disease alleles may change over generations.
 - **Evaluate the impact of different factors**: Researchers can adjust parameters like population size, mutation rate, and selection coefficients to explore their effects on allele frequency dynamics.
 
-### Key Features of the Wright-Fisher Model <sup>1,2,3,4</sup>:
+### Key Features of the Wright-Fisher Model <sup>1,2,3,4,5</sup>:
 - **Genetic Drift**: This model simulates random fluctuations in allele frequencies due to the random sampling of alleles during reproduction.
 - **Mutation**: The model can incorporate mutation (back mutations), where alleles may change over generations.
 - **Selection**: The Wright-Fisher model can account for natural selection by assigning fitness values to different genotypes (e.g., a diseased allele might be selected against).
 
 ---
 
-## Application to Spinocerebellar Ataxia (SCA)
+## Application to Spinocerebellar Ataxia (SCA) <sup>1,2,3,4,5</sup>
 
 In the case of **Spinocerebellar Ataxia (SCA)**, a genetic disorder caused by mutations in specific genes, the Wright-Fisher model can be used to simulate the inheritance patterns and how genetic drift and selection influence the disease allele over multiple generations. 
 
@@ -54,7 +54,8 @@ with st.expander("References"):
     st.markdown("""
     1. Griffiths, A. J. F., Wessler, S. R., Carroll, S. B., & Doebley, J. (2019). *Introduction to genetic analysis* (12th ed.). W.H. Freeman and Company.
     2. Hartl, D. L., & Clark, A. G. (2007). *Principles of population genetics* (4th ed.). Sinauer Associates.
-    3. Messer, P. W. (2016). Neutral models of genetic drift and mutation. In R. M. Kliman (Ed.), Encyclopedia of evolutionary biology (pp. 119–123). Academic Press. https://doi.org/10.1016/B978-0-12-800049-6.00031-7
-    4. O'Brien, P. (1982). Allele frequencies in a multidimensional Wright-Fisher model with general mutation. Journal of Mathematical Biology, 15(3), 227–237. https://doi.org/10.1007/BF00275075
+    3. Kaj, I., Mugal, C. F., & Müller-Widmann, R. (2024). A Wright–Fisher graph model and the impact of directional selection on genetic variation. Theoretical Population Biology, 159, 13–24. https://doi.org/10.1016/j.tpb.2024.07.004
+    4. Messer, P. W. (2016). Neutral models of genetic drift and mutation. In R. M. Kliman (Ed.), Encyclopedia of evolutionary biology (pp. 119–123). Academic Press. https://doi.org/10.1016/B978-0-12-800049-6.00031-7
+    5. O'Brien, P. (1982). Allele frequencies in a multidimensional Wright-Fisher model with general mutation. Journal of Mathematical Biology, 15(3), 227–237. https://doi.org/10.1007/BF00275075
     """)
 
