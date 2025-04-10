@@ -8,7 +8,7 @@ st.set_page_config(page_title="Wright-Fisher Model", page_icon="🧬", layout="w
 st.title("The Wright-Fisher Model and Its Application to Genetics")
 
 # Introduction to the Wright-Fisher Model
-st.markdown("""### What is the Wright-Fisher Model? <sup>1,2,3</sup>
+st.markdown("""### What is the Wright-Fisher Model? <sup>1,2,3,4</sup>
 """,  unsafe_allow_html=True)
 
 st.markdown("""
@@ -30,7 +30,7 @@ The Wright-Fisher model is useful because it provides a simple, yet powerful fra
 - **Evaluate the impact of different factors**: Researchers can adjust parameters like population size, mutation rate, and selection coefficients to explore their effects on allele frequency dynamics.
 
 ### Key Features of the Wright-Fisher Model:
-- **Genetic Drift**: This model simulates random fluctuations in allele frequencies due to the random sampling of alleles during reproduction. The smaller the population, the greater the impact of genetic drift.
+- **Genetic Drift**: This model simulates random fluctuations in allele frequencies due to the random sampling of alleles during reproduction.
 - **Mutation**: The model can incorporate mutation (back mutations), where alleles may change over generations.
 - **Selection**: The Wright-Fisher model can account for natural selection by assigning fitness values to different genotypes (e.g., a diseased allele might be selected against).
 
@@ -55,5 +55,6 @@ with st.expander("References"):
     1. Griffiths, A. J. F., Wessler, S. R., Carroll, S. B., & Doebley, J. (2019). *Introduction to genetic analysis* (12th ed.). W.H. Freeman and Company.
     2. Hartl, D. L., & Clark, A. G. (2007). *Principles of population genetics* (4th ed.). Sinauer Associates.
     3. Messer, P. W. (2016). Neutral models of genetic drift and mutation. In R. M. Kliman (Ed.), Encyclopedia of evolutionary biology (pp. 119–123). Academic Press. https://doi.org/10.1016/B978-0-12-800049-6.00031-7
+    4. O'Brien, P. (1982). Allele frequencies in a multidimensional Wright-Fisher model with general mutation. Journal of Mathematical Biology, 15(3), 227–237. https://doi.org/10.1007/BF00275075
     """)
 
