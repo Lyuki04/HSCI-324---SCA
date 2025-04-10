@@ -143,8 +143,9 @@ This component of the model allows us to explore the **tension between selection
      
 with st.expander ("🎲 Genetic Drift via Binomial Sampling"):
     st.markdown("""
-- Each generation’s alleles are sampled randomly using a binomial distribution.
-- Reflects how chance affects inheritance in a population.
+- In each generation, alleles are sampled randomly based on expected frequency using a binomial distribution.
+- Genetic drift or randomness, can lead to allele **loss** or **fixation**.
+- Reflects how chance can influence inhertiance in a population
 
 """)
 

@@ -78,11 +78,63 @@ ax.set_title("Wright-Fisher Model: SCA Recessive Inheritance with Genetic Drift"
 
 st.pyplot(fig)
 
-# Explain Genetic Drift
+# Explain Parameters
+
+st.subheader("🔍 Explanation of the Simulation Design and Parameters (Recessive Model)")
 st.markdown("""
-### How Genetic Drift Affects the Disease Allele Frequency
+This simulation models how a **recessively inherited** disease allele (like certain forms of **Spinocerebellar Ataxia**) evolves in a population using the **Wright-Fisher model**.
 
-Genetic drift is the random fluctuation of allele frequencies over time, especially in small populations. In the Wright-Fisher model, this effect is due to the random sampling of alleles each generation, where alleles can be lost or fixed due to chance alone.
+with st.expander("🧬 Population Size (N)"):
+    st.markdown("""
+- Controls the strength of **genetic drift**.
+- **Range**: 50 to 1000.
+- Smaller N = more randomness, stronger drift.
+- Larger N = drift has less influence; selection/mutation become more dominant.
+""")
 
-For **recessive inheritance**, individuals must inherit two copies of the disease allele (aa) to show the disease phenotype. This makes the recessive allele less likely to be selected against if it's present in a heterozygous state (Aa), as it doesn't display the disease. However, **genetic drift** can still significantly impact the frequency of this allele, especially when the initial frequency is low or the population is small. In small populations, the recessive allele can randomly disappear (become fixed) or increase due to chance events, even though it may be "hidden" in carriers.
+with st.expander("🌱 Initial Disease Allele Frequency (p₀)"):
+    st.markdown("""
+- Sets the starting frequency of the disease allele (**a**).
+- **Range**: 0.01 to 1.0.
+- Low values simulate rare disease scenarios.
+""")
+
+with st.expander("🧬 Generations (G)"):
+- Number of generations over which the simulation runs.
+- **Range**: 10 to 200.
+- More generations show long-term effects and trends.
+""")
+
+with st.expander("⚖️ Selection Coefficient (s)"):
+    st.markdown("""
+- Represents the **fitness disadvantage** for affected individuals (aa).
+- **Range**: 0.0 (no disadvantage) to 1.0 (lethal).
+- Carriers (Aa) are assumed unaffected: `w_Aa = 1`.
+""")
+
+with st.expander("🔁 Mutation Rate (μ)"):
+    st.markdown("""
+- Models **mutation between alleles** (A ↔ a).
+- **Range**: 10⁻⁷ to 10⁻⁴ (log scale).
+- Realistic human mutation rates are typically around 10⁻⁶.
+""")
+
+with st.expander("👥 Recessive Inheritance Model"):
+    st.markdown("""
+- Only **aa** individuals are affected:
+  - `w_AA = 1`, `w_Aa = 1`, `w_aa = 1 - s`
+- This means carriers can silently pass on the disease allele, making it harder to eliminate from the population.
+""")
+
+with st.expander("🎲 Genetic Drift via Binomial Sampling"):
+    st.markdown("""
+- In each generation, alleles are sampled randomly based on expected frequency using a binomial distribution.
+- Genetic drift or randomness, can lead to allele **loss** or **fixation**.
+- Reflects how chance can influence inhertiance in a population
+""")
+
+with st.expander("🔁 Multiple Simulation Runs"):
+    st.markdown("""
+- Seven independent simulations are shown to demonstrate how outcomes vary even under the same conditions.
+- Highlights the stochastic nature of evolution and disease allele persistence.
 """)
