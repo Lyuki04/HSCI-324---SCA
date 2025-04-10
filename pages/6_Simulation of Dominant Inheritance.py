@@ -130,12 +130,20 @@ with st.expander("🔁 Mutation Rate (μ)"):
 
 with st.expander("👥 Dominant Inheritance Model"):
     st.markdown("""
-- Both **Aa** and **AA** genotypes have reduced fitness:
-- `w_AA = w_Aa = 1 - s`
-- Reflects diseases like **SCA**, where one mutant allele causes symptoms.
+- In this simulation, the disease allele (**A**) is **dominant**, meaning that **just one copy** of the allele is enough to express the disease phenotype.
+- Therefore, **both heterozygous (Aa)** and **homozygous (AA)** individuals are considered affected.
+- The fitness of these individuals is **reduced** by a selection coefficient `s`:
+  - `w_AA = 1 - s`  (two disease alleles)
+  - `w_Aa = 1 - s`  (one disease allele)
+  - `w_aa = 1`      (no disease alleles; full fitness)
 
+This approach reflects **dominantly inherited disorders** like **Spinocerebellar Ataxia (SCA)**, where symptoms can manifest even if only one parent passes on the mutation.
+
+In a population, natural selection may act **against** carriers of the disease allele, reducing its frequency over time. However, due to **genetic drift**, especially in small populations, the allele can still persist or even become fixed — despite its disadvantage.
+
+This component of the model allows us to explore the **tension between selection and randomness**, helping to visualize how a dominant disease gene behaves across generations.
 """)
-    
+     
 with st.expander ("🎲 Genetic Drift via Binomial Sampling"):
     st.markdown("""
 - Each generation’s alleles are sampled randomly using a binomial distribution.
