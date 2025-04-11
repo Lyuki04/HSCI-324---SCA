@@ -10,12 +10,11 @@ def load_lottieurl(url):
 
 lottie_coding = "https://lottie.host/d921db5e-1ee5-41b7-a07d-9c50be5406f7/aMx9k09kLK.json"
 
+st.title("Genetic Drift")
 
-left_column, right_column = st.columns((2,3))
-with left_column:
-    st.title("Genetic Drift")
-with right_column:
-    st_lottie(lottie_coding, height=300, key="GENE")
+st_lottie(lottie_coding, height=300, key="GENE")
+
+st.write("---")
 
 st.markdown("### Overview of Genetic Drift<sup>1,2,3,4,5</sup>", unsafe_allow_html=True)
 
