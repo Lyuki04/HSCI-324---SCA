@@ -15,7 +15,7 @@ left_column, right_column = st.columns((2,3))
 with left_column:
     st.title("Genetic Drift")
 with right_column:
-    st_lottie(lottie_coding, height=200, key="GENE")
+    st_lottie(lottie_coding, height=300, key="GENE")
 
 st.markdown("### Overview of Genetic Drift<sup>1,2,3,4,5</sup>", unsafe_allow_html=True)
 
