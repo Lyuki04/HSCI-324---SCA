@@ -40,13 +40,15 @@ st.subheader("Learn More About Genetic Drift")
 
 with st.expander("What is Genetic Drift?"):
     st.markdown("""
-        - **Genetic drift** is a random process where gene frequencies change in a population due to chance.<sup>1,2</sup>
-        - Genetic drift doesn't depend on whether a gene provides a survival advantage.<sup>1,2</sup>
-        - More pronounced in **small populations**.<sup>1,2</sup>
-        - Over time, some genes may become **more or less common**, or even disappear entirely.<sup>1,2</sup>
+- **Genetic drift** is a random process where gene frequencies change in a population due to chance.<sup>1,2</sup>
+- Genetic drift doesn't depend on whether a gene provides a survival advantage.<sup>1,2</sup>
+- More pronounced in **small populations**.<sup>1,2</sup>
+- Over time, some genes may become **more or less common**, or even disappear entirely.<sup>1,2</sup>
     """, unsafe_allow_html=True)
-    st.image(img_gene)
-    st.markdown("_Source: https://www.khanacademy.org/science/ap-biology/natural-selection/population-genetics/a/genetic-drift-founder-bottleneck_")
+
+    st.image(img_gene, caption="Visualizing Genetic Drift", use_column_width=True)
+
+    st.markdown("_Source: https://www.khanacademy.org/science/ap-biology/natural-selection/population-genetics/a/genetic-drift-founder-bottleneck)_")
 
 
 with st.expander("Common Types of Genetic Drift"):
