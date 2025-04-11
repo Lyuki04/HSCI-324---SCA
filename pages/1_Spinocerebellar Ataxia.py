@@ -22,7 +22,7 @@ with right_column:
 
 
 img_cerebellum = Image.open("Images/cerebellum.jpg")
-img_CAG = Image.open("Images/Genetic_Drift.png")
+img_CAG = Image.open("Images/CAG repeat.png")
 
 
 with st.container():
