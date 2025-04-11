@@ -11,6 +11,7 @@ def load_lottieurl(url):
 
 lottie_coding = "https://lottie.host/d921db5e-1ee5-41b7-a07d-9c50be5406f7/aMx9k09kLK.json"
 
+img_gene = Image.open("Images/Genetic_Drift.png")
 
 left_column, right_column = st.columns((2,3))
 with left_column:
@@ -43,6 +44,8 @@ with st.expander("What is Genetic Drift?"):
 - More pronounced in **small populations**.<sup>1,2</sup>
 - Over time, some genes may become **more or less common**, or even disappear entirely.<sup>1,2</sup>
     """, unsafe_allow_html=True)
+    st.image("img_gene")
+    st.markdown("_Source: https://www.khanacademy.org/science/ap-biology/natural-selection/population-genetics/a/genetic-drift-founder-bottleneck_")
 
 with st.expander("Common Types of Genetic Drift"):
     st.markdown("""
