@@ -37,6 +37,7 @@ st.markdown("""
 """)
 
 st.subheader("Learn More About Genetic Drift")
+st.image("Images/Genetic_Drift.png", caption="Test image outside expander")
 
 with st.expander("What is Genetic Drift?"):
     st.markdown("""
