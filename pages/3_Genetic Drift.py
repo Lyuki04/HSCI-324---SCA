@@ -1,8 +1,25 @@
 import streamlit as st
+import requests
+from streamlit_lottie import st_lottie
 
-st.title("Genetic Drift")
+def load_lottieurl(url):
+    r = requests.get(url)
+    if r.status_code != 200:
+        return None
+    return r.json()
+
+lottie_coding = "https://lottie.host/d921db5e-1ee5-41b7-a07d-9c50be5406f7/aMx9k09kLK.json"
+
+
+left_column, right_column = st.columns((5,3))
+with left_column:
+    st.title("Genetic Drift")
+with right_column:
+    st_lottie(lottie_coding, height=200, key="GENE")
 
 st.markdown("### Overview of Genetic Drift<sup>1,2,3,4,5</sup>", unsafe_allow_html=True)
+
+
 
 # Interactive Table for Key Points (Optional)
 st.markdown("""
