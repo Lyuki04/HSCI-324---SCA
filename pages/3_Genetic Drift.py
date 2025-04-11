@@ -13,6 +13,8 @@ lottie_coding = "https://lottie.host/d921db5e-1ee5-41b7-a07d-9c50be5406f7/aMx9k0
 
 img_gene = Image.open("Images/Genetic_Drift.png")
 
+st.image(img_gene)
+
 left_column, right_column = st.columns((2,3))
 with left_column:
     st.title("Genetic Drift")
