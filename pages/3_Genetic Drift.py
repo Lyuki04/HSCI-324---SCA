@@ -46,7 +46,7 @@ with st.expander("What is Genetic Drift?"):
     """, unsafe_allow_html=True)
     st.image(img_gene)
     st.markdown("""
-    **Note:** *Visualising Genetic Drift* ([Source](https://www.khanacademy.org/science/ap-biology/natural-selection/population-genetics/a/genetic-drift-founder-bottleneck))
+    **Note:** *Visualising Genetic Drift* (Source:(https://www.khanacademy.org/science/ap-biology/natural-selection/population-genetics/a/genetic-drift-founder-bottleneck))
     """)
 
 
