@@ -45,7 +45,7 @@ with st.expander("What is Genetic Drift?"):
 - Over time, some genes may become **more or less common**, or even disappear entirely.<sup>1,2</sup>
     """, unsafe_allow_html=True)
     st.image(img_gene)
-    st.markdown("_Source: https://www.khanacademy.org/science/ap-biology/natural-selection/population-genetics/a/genetic-drift-founder-bottleneck_")
+    st.markdown("_Note"Visualising genetic Drift (Source: https://www.khanacademy.org/science/ap-biology/natural-selection/population-genetics/a/genetic-drift-founder-bottleneck)_")
 
 with st.expander("Common Types of Genetic Drift"):
     st.markdown("""
