@@ -2,6 +2,7 @@ import streamlit as st
 import requests
 from streamlit_lottie import st_lottie
 from PIL import Image
+import os
 
 def load_lottieurl(url):
     r = requests.get(url)
@@ -13,7 +14,8 @@ lottie_coding = "https://lottie.host/d921db5e-1ee5-41b7-a07d-9c50be5406f7/aMx9k0
 
 img_gene = Image.open("Images/Genetic_Drift.png")
 
-st.image(img_gene)
+img_path = os.path.join(os.path.dirname(__file__), "Images", "Genetic_Drift.png")
+img_gene = Image.open(img_path)
 
 left_column, right_column = st.columns((2,3))
 with left_column:
