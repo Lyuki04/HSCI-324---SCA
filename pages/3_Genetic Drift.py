@@ -37,7 +37,6 @@ st.markdown("""
 """)
 
 st.subheader("Learn More About Genetic Drift")
-st.image("Images/Genetic_Drift.png", caption="Test image outside expander")
 
 with st.expander("What is Genetic Drift?"):
     st.markdown("""
@@ -46,9 +45,7 @@ with st.expander("What is Genetic Drift?"):
 - More pronounced in **small populations**.<sup>1,2</sup>
 - Over time, some genes may become **more or less common**, or even disappear entirely.<sup>1,2</sup>
     """, unsafe_allow_html=True)
-
-    st.image(img_gene, caption="Visualizing Genetic Drift", use_column_width=True)
-
+    st.image(img_gene)
     st.markdown("_Source: https://www.khanacademy.org/science/ap-biology/natural-selection/population-genetics/a/genetic-drift-founder-bottleneck)_")
 
 
