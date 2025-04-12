@@ -22,7 +22,7 @@ st_lottie(lottie_coding, height=300, key="DNA")
 with st.container():
     st.write("---")
     st.header("Topics")
-    left_column, middle1_column, middle2_column, middle3_column, middle4_column, right_column = st.columns((4.3,4,3,3.8,3.8,4))
+    left_column, middle1_column, middle2_column, middle3_column, middle4_column, right_column = st.columns((4.4,4,3,3.8,3.8,4))
     with left_column:
         st.subheader("Spinocerebellar Ataxia")
         st.page_link("pages/1_Spinocerebellar Ataxia.py", label="***Learn More***")
